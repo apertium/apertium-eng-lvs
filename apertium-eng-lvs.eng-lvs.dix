@@ -7,6 +7,12 @@
     <sdef n="m"/>
     <sdef n="f"/>
     <sdef n="mf"/>
+    <sdef n="prn"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="pers"/>
+    <sdef n="tn"/>
+    <sdef n="p3"/>
     <sdef n="np"/>
     <sdef n="top"/>
     <sdef n="det"/>
@@ -34,13 +40,14 @@
     <sdef n="GD"/>
   </sdefs>
   <section id="main" type="standard">
-    <!-- Proper names: Men -->
-    <!-- in Latvia, the general policy is to translate *all* proper names -->
-    <!--
-    <e><p><l>Adam<s n="np"/><s n="ant"/><s n="m"/></l><r>Ādams<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Aleksanders<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Andris<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    ..but let's ignore that, shall we? -->
+
+    <!-- SECTION: Conjunctions -->
+    <e><p><l>or<s n="cnjcoo"/></l><r>jeb<s n="cnjcoo"/></r></p></e>
+    <e><p><l>and<s n="cnjcoo"/></l><r>un<s n="cnjcoo"/></r></p></e>
+    <e><p><l>nor<s n="cnjcoo"/></l><r>nedz<s n="cnjcoo"/></r></p></e>
+    <e><p><l>also<s n="cnjcoo"/></l><r>arī<s n="cnjcoo"/></r></p></e>
+    <e><p><l>but<s n="cnjcoo"/></l><r>bet<s n="cnjcoo"/></r></p></e>
+
 
     <!-- SECTION: Prepositions -->
     <e><p><l>under<s n="pr"/></l><r>zem<s n="pr"/></r></p></e>
@@ -65,27 +72,26 @@
     <e><p><l>since<s n="pr"/></l><r>kopš<s n="pr"/></r></p></e>
     <e><p><l>out<b/>of<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
 
-    <!-- SECTION: Conjunctions -->
-    <e><p><l>or<s n="cnjcoo"/></l><r>jeb<s n="cnjcoo"/></r></p></e>
-    <e><p><l>and<s n="cnjcoo"/></l><r>un<s n="cnjcoo"/></r></p></e>
-    <e><p><l>nor<s n="cnjcoo"/></l><r>nedz<s n="cnjcoo"/></r></p></e>
-    <e><p><l>also<s n="cnjcoo"/></l><r>arī<s n="cnjcoo"/></r></p></e>
-    <e><p><l>but<s n="cnjcoo"/></l><r>bet<s n="cnjcoo"/></r></p></e>
-
-    <!-- SECTION: Adverbs -->
-    <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
-    <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
-    <e><p><l>here<s n="adv"/></l><r>šeit<s n="adv"/></r></p></e>
-    <e><p><l>outside<s n="adv"/></l><r>ārā<s n="adv"/></r></p></e>
-    <e><p><l>yet<s n="adv"/></l><r>jau<s n="adv"/></r></p></e>
-    <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kur<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>by<b/>nature<s n="adv"/></l><r>no<b/>dabas<s n="adv"/></r></p></e>
-    <e><p><l>from<b/>a<b/>to<b/>z<s n="adv"/></l><r>no<b/>a<b/>līdz<b/>z<s n="adv"/></r></p></e>
-    <e><p><l>wherever<s n="adv"/></l><r>lai<b/>kur<s n="adv"/></r></p></e>
-    <!-- det -->
+    <!-- SECTION: Determiners -->
     <e><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>kas<s n="det"/><s n="itg"/><s n="sp"/><s n="mf"/></r></p></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>es<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+
     <!-- SECTION: Proper names -->
+
+    <!-- Proper names: Men -->
+    <!-- in Latvia, the general policy is to translate *all* proper names -->
+    <!--
+    <e><p><l>Adam<s n="np"/><s n="ant"/><s n="m"/></l><r>Ādams<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Aleksanders<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Andris<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    ..but let's ignore that, shall we? -->
+
+
     <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganistāna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Aļaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Australia<s n="np"/><s n="top"/></l><r>Austrālija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -1724,29 +1730,6 @@
     <e><p><l>English<b/>language<s n="n"/></l><r>angļu<b/>valoda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Latvian<b/>language<s n="n"/></l><r>latviešu<b/>valoda<s n="n"/><s n="f"/></r></p></e>
 
-    <!-- SECTION: Verbs -->
-
-    <e><p><l>be<s n="vbser"/></l><r>būt<s n="vbser"/></r></p></e>
-    <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/></r></p></e>
-    <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
-    <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
-    <e><p><l>escape<s n="vblex"/></l><r>aizbēgt<s n="vblex"/></r></p></e>
-    <e><p><l>leave<s n="vblex"/></l><r>aizbraukt<s n="vblex"/></r></p></e>
-    <e><p><l>go<s n="vblex"/></l><r>aiziet<s n="vblex"/></r></p></e>
-    <e><p><l>fall<g><b/>asleep</g><s n="vblex"/></l><r>aizmigt<s n="vblex"/></r></p></e>
-    <e><p><l>forget<s n="vblex"/></l><r>aizmirst<s n="vblex"/></r></p></e>
-    <e><p><l>occupy<s n="vblex"/></l><r>aizņemt<s n="vblex"/></r></p></e>
-    <e><p><l>fill<s n="vblex"/></l><r>aizpildīt<s n="vblex"/></r></p></e>
-    <e><p><l>protect<s n="vblex"/></l><r>aizsargāt<s n="vblex"/></r></p></e>
-    <e><p><l>reach<s n="vblex"/></l><r>aizsniegt<s n="vblex"/></r></p></e>
-    <e><p><l>replace<s n="vblex"/></l><r>aizstāt<s n="vblex"/></r></p></e>
-    <e><p><l>close<s n="vblex"/></l><r>aiztaisīt<s n="vblex"/></r></p></e>
-    <e><p><l>touch<s n="vblex"/></l><r>aiztikt<s n="vblex"/></r></p></e>
-    <e><p><l>visit<s n="vblex"/></l><r>apciemot<s n="vblex"/></r></p></e>
-    <e><p><l>eat<s n="vblex"/></l><r>apēst<s n="vblex"/></r></p></e>
-    <e><p><l>bury<s n="vblex"/></l><r>apglabāt<s n="vblex"/></r></p></e>
-    <e><p><l>find<s n="vblex"/></l><r>atrast<s n="vblex"/></r></p></e>
-
     <!-- SECTION: Numerals -->
     <e><p><l>one<s n="num"/></l><r>viens<s n="num"/></r></p></e>
     <e><p><l>one<b/>and<b/>a<b/>half<s n="num"/></l><r>pusotra<s n="num"/></r></p></e>
@@ -2631,11 +2614,51 @@
     <e><p><l>rapid<s n="adj"/></l><r>žigls<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>marginal<s n="adj"/></l><r>margināls<s n="adj"/><s n="sint"/></r></p></e>
 
+    <!-- SECTION: Adverbs -->
+    <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
+    <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
+    <e><p><l>here<s n="adv"/></l><r>šeit<s n="adv"/></r></p></e>
+    <e><p><l>outside<s n="adv"/></l><r>ārā<s n="adv"/></r></p></e>
+    <e><p><l>yet<s n="adv"/></l><r>jau<s n="adv"/></r></p></e>
+    <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kur<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>by<b/>nature<s n="adv"/></l><r>no<b/>dabas<s n="adv"/></r></p></e>
+    <e><p><l>from<b/>a<b/>to<b/>z<s n="adv"/></l><r>no<b/>a<b/>līdz<b/>z<s n="adv"/></r></p></e>
+    <e><p><l>wherever<s n="adv"/></l><r>lai<b/>kur<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Verbs -->
+
+    <e><p><l>be<s n="vbser"/></l><r>būt<s n="vbser"/></r></p></e>
+    <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/></r></p></e>
+    <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
+    <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
+    <e><p><l>escape<s n="vblex"/></l><r>aizbēgt<s n="vblex"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>aizbraukt<s n="vblex"/></r></p></e>
+    <e><p><l>go<s n="vblex"/></l><r>aiziet<s n="vblex"/></r></p></e>
+    <e><p><l>fall<g><b/>asleep</g><s n="vblex"/></l><r>aizmigt<s n="vblex"/></r></p></e>
+    <e><p><l>forget<s n="vblex"/></l><r>aizmirst<s n="vblex"/></r></p></e>
+    <e><p><l>occupy<s n="vblex"/></l><r>aizņemt<s n="vblex"/></r></p></e>
+    <e><p><l>fill<s n="vblex"/></l><r>aizpildīt<s n="vblex"/></r></p></e>
+    <e><p><l>protect<s n="vblex"/></l><r>aizsargāt<s n="vblex"/></r></p></e>
+    <e><p><l>reach<s n="vblex"/></l><r>aizsniegt<s n="vblex"/></r></p></e>
+    <e><p><l>replace<s n="vblex"/></l><r>aizstāt<s n="vblex"/></r></p></e>
+    <e><p><l>close<s n="vblex"/></l><r>aiztaisīt<s n="vblex"/></r></p></e>
+    <e><p><l>touch<s n="vblex"/></l><r>aiztikt<s n="vblex"/></r></p></e>
+    <e><p><l>visit<s n="vblex"/></l><r>apciemot<s n="vblex"/></r></p></e>
+    <e><p><l>eat<s n="vblex"/></l><r>apēst<s n="vblex"/></r></p></e>
+    <e><p><l>bury<s n="vblex"/></l><r>apglabāt<s n="vblex"/></r></p></e>
+    <e><p><l>find<s n="vblex"/></l><r>atrast<s n="vblex"/></r></p></e>
+
+
+
     <e i="yes"><p><l>directive<b/></l><r>direktīva<b/></r></p><re>[0-9][0-9]/[0-9][0-9][0-9][/ ]</re><p><l>EEC<s n="n"/></l><r>EEK<s n="n"/><s n="f"/></r></p></e>
 
   </section>
   <section id="punctuation" type="standard">
-    <e><i>.<s n="sent"/></i></e>
+<e>       <re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
     <e><i>,<s n="cm"/></i></e>
   </section>
 </dictionary>
