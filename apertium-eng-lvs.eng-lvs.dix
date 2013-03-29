@@ -78,8 +78,12 @@
     <e><p><l>out<b/>of<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
 
     <!-- SECTION: Determiners -->
-    <e><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/></r></p></e>
+    <e r="RL"><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/><s n="GD"/></r></p></e>
     <e><p><l>both<s n="det"/><s n="ind"/></l><r>abi<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>kas<s n="det"/><s n="itg"/><s n="sp"/><s n="mf"/></r></p></e>
 
@@ -502,6 +506,7 @@
     <e><p><l>oil<s n="n"/></l><r>eļļa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>meat<s n="n"/></l><r>gaļa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>head<s n="n"/></l><r>galva<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hand<s n="n"/></l><r>roka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>marten<s n="n"/></l><r>cauna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>well<s n="n"/></l><r>aka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>astrophysics<s n="n"/></l><r>astrofizika<s n="n"/><s n="f"/></r></p></e>
@@ -2623,8 +2628,8 @@
     <e><p><l>watery<s n="adj"/></l><r>ūdeņains<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>rapid<s n="adj"/></l><r>žigls<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>marginal<s n="adj"/></l><r>margināls<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>young<s n="adj"/><s n="sint"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>little<s n="adj"/><s n="sint"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
+    <!--<e><p><l>young<s n="adj"/><s n="sint"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>-->
+    <e><p><l>little<s n="adj"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="adv"/><s n="itg"/></r></p></e>
