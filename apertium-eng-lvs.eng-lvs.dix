@@ -41,7 +41,8 @@
     <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Aleksanders<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Andris<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     ..but let's ignore that, shall we? -->
-    <!-- Prepositions -->
+
+    <!-- SECTION: Prepositions -->
     <e><p><l>under<s n="pr"/></l><r>zem<s n="pr"/></r></p></e>
     <e><p><l>without<s n="pr"/></l><r>bez<s n="pr"/></r></p></e>
     <e><p><l>above<s n="pr"/></l><r>virs<s n="pr"/></r></p></e>
@@ -63,13 +64,15 @@
     <e><p><l>for<s n="pr"/></l><r>priekš<s n="pr"/></r></p></e>
     <e><p><l>since<s n="pr"/></l><r>kopš<s n="pr"/></r></p></e>
     <e><p><l>out<b/>of<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
-    <!-- Conjunctions -->
+
+    <!-- SECTION: Conjunctions -->
     <e><p><l>or<s n="cnjcoo"/></l><r>jeb<s n="cnjcoo"/></r></p></e>
     <e><p><l>and<s n="cnjcoo"/></l><r>un<s n="cnjcoo"/></r></p></e>
     <e><p><l>nor<s n="cnjcoo"/></l><r>nedz<s n="cnjcoo"/></r></p></e>
     <e><p><l>also<s n="cnjcoo"/></l><r>arī<s n="cnjcoo"/></r></p></e>
     <e><p><l>but<s n="cnjcoo"/></l><r>bet<s n="cnjcoo"/></r></p></e>
-    <!-- Adverbs -->
+
+    <!-- SECTION: Adverbs -->
     <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
     <e><p><l>here<s n="adv"/></l><r>šeit<s n="adv"/></r></p></e>
@@ -82,7 +85,7 @@
     <!-- det -->
     <e><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>kas<s n="det"/><s n="itg"/><s n="sp"/><s n="mf"/></r></p></e>
-    <!-- Proper names: Places -->
+    <!-- SECTION: Proper names -->
     <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganistāna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Aļaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Australia<s n="np"/><s n="top"/></l><r>Austrālija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -266,7 +269,11 @@
     <e><p><l>Soviet<b/>Union<s n="np"/><s n="top"/></l><r>Padomju<b/>Savienība<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>European<b/>Union<s n="np"/><s n="top"/></l><r>Eiropas<b/>Savienība<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Union<b/>of<b/>Soviet<b/>Socialist<b/>Republics<s n="np"/><s n="top"/></l><r>Padomju<b/>Sociālistisko<b/>Republiku<b/>Savienība<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-    <!-- nouns -->
+
+
+
+
+    <!-- SECTION: Nouns -->
     <e><p><l>bull<s n="n"/></l><r>bullis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>thief<s n="n"/></l><r>zaglis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sparrow<s n="n"/></l><r>zvirbulis<s n="n"/><s n="m"/></r></p></e>
@@ -1717,8 +1724,8 @@
     <e><p><l>English<b/>language<s n="n"/></l><r>angļu<b/>valoda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Latvian<b/>language<s n="n"/></l><r>latviešu<b/>valoda<s n="n"/><s n="f"/></r></p></e>
 
-    <e><p><l>brown<s n="adj"/></l><r>brūns<s n="adj"/></r></p></e>
-  
+    <!-- SECTION: Verbs -->
+
     <e><p><l>be<s n="vbser"/></l><r>būt<s n="vbser"/></r></p></e>
     <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/></r></p></e>
     <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
@@ -1740,6 +1747,7 @@
     <e><p><l>bury<s n="vblex"/></l><r>apglabāt<s n="vblex"/></r></p></e>
     <e><p><l>find<s n="vblex"/></l><r>atrast<s n="vblex"/></r></p></e>
 
+    <!-- SECTION: Numerals -->
     <e><p><l>one<s n="num"/></l><r>viens<s n="num"/></r></p></e>
     <e><p><l>one<b/>and<b/>a<b/>half<s n="num"/></l><r>pusotra<s n="num"/></r></p></e>
     <e><p><l>one<b/>and<b/>a<b/>third<s n="num"/></l><r>pustreša<s n="num"/></r></p></e>
@@ -1791,6 +1799,9 @@
     <e><p><l>eight<b/>thousand<s n="num"/></l><r>astoņtūkstoš<s n="num"/></r></p></e>
     <e><p><l>nine<b/>thousand<s n="num"/></l><r>deviņtūkstoš<s n="num"/></r></p></e>
 
+    <!-- SECTION: Adjectives -->
+    <e><p><l>brown<s n="adj"/></l><r>brūns<s n="adj"/></r></p></e>
+  
     <e><p><l>early<s n="adj"/><s n="sint"/></l><r>agrs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>new<s n="adj"/><s n="sint"/></l><r>jauns<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>mutual<s n="adj"/></l><r>abpusējs<s n="adj"/><s n="sint"/></r></p></e>
@@ -2621,6 +2632,7 @@
     <e><p><l>marginal<s n="adj"/></l><r>margināls<s n="adj"/><s n="sint"/></r></p></e>
 
     <e i="yes"><p><l>directive<b/></l><r>direktīva<b/></r></p><re>[0-9][0-9]/[0-9][0-9][0-9][/ ]</re><p><l>EEC<s n="n"/></l><r>EEK<s n="n"/><s n="f"/></r></p></e>
+
   </section>
   <section id="punctuation" type="standard">
     <e><i>.<s n="sent"/></i></e>
