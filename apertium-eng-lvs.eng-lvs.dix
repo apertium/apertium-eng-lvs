@@ -4,6 +4,11 @@
   <sdefs>
     <sdef n="n"/>
     <sdef n="ant"/>
+    <sdef n="quot"/>
+    <sdef n="ij"/>
+    <sdef n="iv"/>
+    <sdef n="tv"/>
+    <sdef n="ind"/>
     <sdef n="m"/>
     <sdef n="f"/>
     <sdef n="mf"/>
@@ -74,6 +79,8 @@
 
     <!-- SECTION: Determiners -->
     <e><p><l>this<s n="det"/><s n="dem"/></l><r>šis<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>both<s n="det"/><s n="ind"/></l><r>abi<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>kas<s n="det"/><s n="itg"/><s n="sp"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -91,6 +98,8 @@
     <e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Andris<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     ..but let's ignore that, shall we? -->
 
+    <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>Džeimss<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Marija<s n="np"/><s n="ant"/><s n="f"/></l><r>Marija<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganistāna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Aļaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -1548,6 +1557,7 @@
     <e><p><l>silver<s n="n"/></l><r>sudrabs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sultan<s n="n"/></l><r>sultāns<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dog<s n="n"/></l><r>suns<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cat<s n="n"/></l><r>kaķis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>messenger<s n="n"/></l><r>sūtnis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>weight<s n="n"/></l><r>svars<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>candle<s n="n"/></l><r>svece<s n="n"/><s n="f"/></r></p></e>
@@ -2137,7 +2147,7 @@
     <e><p><l>greedy<s n="adj"/></l><r>kārs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>regular<s n="adj"/></l><r>kārtns<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unfortunate<s n="adj"/></l><r>kļūmīgs<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>lazy<s n="adj"/></l><r>kūtrs<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>lazy<s n="adj"/><s n="sint"/></l><r>kūtrs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>benign<s n="adj"/></l><r>labdabīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>charitable<s n="adj"/></l><r>labdarīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>labile<s n="adj"/></l><r>labils<s n="adj"/><s n="sint"/></r></p></e>
@@ -2148,8 +2158,8 @@
     <e><p><l>timely<s n="adj"/></l><r>laicīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>smooth<s n="adj"/></l><r>laidens<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>modern<s n="adj"/></l><r>laikmetīgs<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>happy<s n="adj"/></l><r>laimīgs<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>kind<s n="adj"/></l><r>laipns<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>happy<s n="adj"/><s n="sint"/></l><r>laimīgs<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kind<s n="adj"/><s n="sint"/></l><r>laipns<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>non-annoying<s n="adj"/></l><r>neapnicīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unarchaic<s n="adj"/></l><r>nearhaisks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>irresponsible<s n="adj"/></l><r>neatbildīgs<s n="adj"/><s n="sint"/></r></p></e>
@@ -2553,7 +2563,7 @@
     <e><p><l>necessary<s n="adj"/></l><r>vajadzīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>violent<s n="adj"/></l><r>vardarbīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>summer<s n="adj"/></l><r>vasarīgs<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>old<s n="adj"/></l><r>vecs<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>old<s n="adj"/><s n="sint"/></l><r>vecs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>veldrains<s n="adj"/></l><r>veldrains<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>venous<s n="adj"/></l><r>venozs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verbal<s n="adj"/></l><r>verbāls<s n="adj"/><s n="sint"/></r></p></e>
@@ -2613,23 +2623,33 @@
     <e><p><l>watery<s n="adj"/></l><r>ūdeņains<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>rapid<s n="adj"/></l><r>žigls<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>marginal<s n="adj"/></l><r>margināls<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>young<s n="adj"/><s n="sint"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>little<s n="adj"/><s n="sint"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
+    <e><p><l>there<s n="adv"/></l><r>tur<s n="adv"/></r></p></e>
     <e><p><l>here<s n="adv"/></l><r>šeit<s n="adv"/></r></p></e>
     <e><p><l>outside<s n="adv"/></l><r>ārā<s n="adv"/></r></p></e>
     <e><p><l>yet<s n="adv"/></l><r>jau<s n="adv"/></r></p></e>
+    <e><p><l>now<s n="adv"/></l><r>tagad<s n="adv"/></r></p></e>
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kur<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>by<b/>nature<s n="adv"/></l><r>no<b/>dabas<s n="adv"/></r></p></e>
     <e><p><l>from<b/>a<b/>to<b/>z<s n="adv"/></l><r>no<b/>a<b/>līdz<b/>z<s n="adv"/></r></p></e>
     <e><p><l>wherever<s n="adv"/></l><r>lai<b/>kur<s n="adv"/></r></p></e>
+    <e><p><l>yesterday<s n="adv"/></l><r>vakar<s n="adv"/></r></p></e>
+    <e><p><l>then<s n="adv"/></l><r>tad<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
     <e><p><l>be<s n="vbser"/></l><r>būt<s n="vbser"/></r></p></e>
-    <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/></r></p></e>
+
+    <e><p><l>see<s n="vblex"/></l><r>redzēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>hear<s n="vblex"/></l><r>dzirdēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>walk<s n="vblex"/></l><r>iet<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
     <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
     <e><p><l>escape<s n="vblex"/></l><r>aizbēgt<s n="vblex"/></r></p></e>
@@ -2649,6 +2669,8 @@
     <e><p><l>bury<s n="vblex"/></l><r>apglabāt<s n="vblex"/></r></p></e>
     <e><p><l>find<s n="vblex"/></l><r>atrast<s n="vblex"/></r></p></e>
 
+    <!-- SECTION: Interjections -->
+    <e><p><l>no<s n="adv"/></l><r>nē<s n="ij"/></r></p></e>
 
 
     <e i="yes"><p><l>directive<b/></l><r>direktīva<b/></r></p><re>[0-9][0-9]/[0-9][0-9][0-9][/ ]</re><p><l>EEC<s n="n"/></l><r>EEK<s n="n"/><s n="f"/></r></p></e>
@@ -2657,8 +2679,9 @@
   <section id="punctuation" type="standard">
 <e>       <re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
 
-<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e>       <re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
     <e><i>,<s n="cm"/></i></e>
+    <e><i>"<s n="quot"/></i></e>
   </section>
 </dictionary>
