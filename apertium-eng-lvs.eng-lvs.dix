@@ -6,8 +6,11 @@
     <sdef n="ant"/>
     <sdef n="quot"/>
     <sdef n="ij"/>
+    <sdef n="def"/>
+    <sdef n="FD"/>
     <sdef n="iv"/>
     <sdef n="tv"/>
+    <sdef n="loc"/>
     <sdef n="ind"/>
     <sdef n="m"/>
     <sdef n="f"/>
@@ -50,13 +53,17 @@
     <e><p><l>or<s n="cnjcoo"/></l><r>jeb<s n="cnjcoo"/></r></p></e>
     <e><p><l>and<s n="cnjcoo"/></l><r>un<s n="cnjcoo"/></r></p></e>
     <e><p><l>nor<s n="cnjcoo"/></l><r>nedz<s n="cnjcoo"/></r></p></e>
-    <e><p><l>also<s n="cnjcoo"/></l><r>arī<s n="cnjcoo"/></r></p></e>
+    <e><p><l>also<s n="adv"/></l><r>arī<s n="cnjcoo"/></r></p></e>
     <e><p><l>but<s n="cnjcoo"/></l><r>bet<s n="cnjcoo"/></r></p></e>
 
 
     <!-- SECTION: Prepositions -->
     <e><p><l>under<s n="pr"/></l><r>zem<s n="pr"/></r></p></e>
     <e><p><l>without<s n="pr"/></l><r>bez<s n="pr"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>caur<s n="pr"/></r></p></e>
+    <e><p><l>trough<s n="pr"/></l><r>caur<s n="pr"/></r></p></e>
+    <e><p><l>via<s n="pr"/></l><r>caur<s n="pr"/></r></p></e>
+    <e><p><l>per<s n="pr"/></l><r>caur<s n="pr"/></r></p></e>
     <e><p><l>above<s n="pr"/></l><r>virs<s n="pr"/></r></p></e>
     <e><p><l>after<s n="pr"/></l><r>pēc<s n="pr"/></r></p></e>
     <e><p><l>at<s n="pr"/></l><r>pie<s n="pr"/></r></p></e>
@@ -89,8 +96,16 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>es<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>es<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>tu<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+<!--    <e r="RL"><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>tu<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>-->
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>tu<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="GD"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>viņš<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>viņš<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>viņi<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>viņi<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
+    <e><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>abi<s n="prn"/><s n="def"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Proper names -->
 
@@ -2465,7 +2480,7 @@
     <e><p><l>schematic<s n="adj"/></l><r>shematisks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>female<s n="adj"/></l><r>sievišķs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>womanly<s n="adj"/></l><r>sievišķīgs<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>warm<s n="adj"/></l><r>silts<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>warm<s n="adj"/><s n="sint"/></l><r>silts<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>symbolic<s n="adj"/></l><r>simbolisks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>symmetrical<s n="adj"/></l><r>simetrisks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sympathetic<s n="adj"/></l><r>simpātisks<s n="adj"/><s n="sint"/></r></p></e>
@@ -2632,10 +2647,13 @@
     <e><p><l>little<s n="adj"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
+ 
+    <e r="RL"><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/><s n="loc"/></r></p></e>
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>tur<s n="adv"/></r></p></e>
+    <e><p><l>never<s n="adv"/></l><r>nekad<s n="adv"/></r></p></e>
     <e><p><l>here<s n="adv"/></l><r>šeit<s n="adv"/></r></p></e>
     <e><p><l>outside<s n="adv"/></l><r>ārā<s n="adv"/></r></p></e>
     <e><p><l>yet<s n="adv"/></l><r>jau<s n="adv"/></r></p></e>
@@ -2645,6 +2663,7 @@
     <e><p><l>from<b/>a<b/>to<b/>z<s n="adv"/></l><r>no<b/>a<b/>līdz<b/>z<s n="adv"/></r></p></e>
     <e><p><l>wherever<s n="adv"/></l><r>lai<b/>kur<s n="adv"/></r></p></e>
     <e><p><l>yesterday<s n="adv"/></l><r>vakar<s n="adv"/></r></p></e>
+    <e><p><l>today<s n="adv"/></l><r>šodien<s n="adv"/></r></p></e>
     <e><p><l>then<s n="adv"/></l><r>tad<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->

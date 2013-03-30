@@ -2,6 +2,12 @@
 <transfer default="chunk">
 
 <section-def-cats>
+  <def-cat n="prn-def">
+     <cat-item tags="prn.def.*"/>
+  </def-cat>
+  <def-cat n="prn-pers">
+     <cat-item tags="prn.pers.*"/>
+  </def-cat>
   <def-cat n="np-ant">
      <cat-item tags="np.ant.*"/>
   </def-cat>
@@ -35,6 +41,12 @@
 </section-def-cats>
 
 <section-def-attrs>
+    <def-attr n="a_func">
+      <attr-item tags="subj"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="FD"/>
+    </def-attr>
+
   <def-attr n="a_nom">
      <attr-item tags="n"/>
      <attr-item tags="np"/>
@@ -66,6 +78,7 @@
      <attr-item tags="imp"/>
      <attr-item tags="aor"/>
      <attr-item tags="fti"/>
+     <attr-item tags="inf"/>
      <attr-item tags="past"/>
   </def-attr>
 
@@ -87,7 +100,7 @@
      <attr-item tags="ND"/>
   </def-attr>
 
-  <def-attr n="cas">
+  <def-attr n="a_cas">
      <attr-item tags="nom"/>
      <attr-item tags="acc"/>
      <attr-item tags="dat"/>
@@ -103,10 +116,85 @@
 <section-def-vars>
   <def-var n="number"/>
   <def-var n="genere"/>
+  <def-var n="sntype"/>
 </section-def-vars>
+
+  <section-def-macros>
+    <def-macro n="reset-vars1" npar="1">
+          <let><var n="sntype"/><lit v=""/></let>
+          <let><var n="number"/><lit v=""/></let>
+    </def-macro>
+  </section-def-macros>
+
 
 <section-rules>
 <!-- Sintagmas nominales -->
+
+    <rule comment="REGLA: prn-pers">
+      <pattern>
+        <pattern-item n="prn-pers"/>
+      </pattern>
+      <action>
+        <choose>
+          <when> <!-- do something cleverer here -->
+            <test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_func"/><lit-tag v="subj"/></let>
+            <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+          </when>
+          <when>
+            <test><not><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal></not></test>
+            <let><clip pos="1" side="tl" part="a_func"/><lit-tag v="obj"/></let>
+            <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_cas"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: prn-def">
+      <pattern>
+        <pattern-item n="prn-def"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_cas"/></tag>
+              <tag><clip pos="1" side="sl" part="a_def"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
   <rule>
      <pattern>
@@ -119,7 +207,7 @@
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="sl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="sl" part="cas"/></tag>
+             <tag><clip pos="1" side="sl" part="a_cas"/></tag>
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -144,7 +232,7 @@
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="sl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="sl" part="cas"/></tag>
+             <tag><clip pos="1" side="sl" part="a_cas"/></tag>
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -169,7 +257,7 @@
              <tag><clip pos="1" side="sl" part="grau"/></tag>
              <tag><clip pos="1" side="sl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="sl" part="cas"/></tag>
+             <tag><clip pos="1" side="sl" part="a_cas"/></tag>
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
