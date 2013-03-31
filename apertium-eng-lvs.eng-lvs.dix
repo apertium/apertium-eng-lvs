@@ -8,8 +8,11 @@
     <sdef n="ij"/>
     <sdef n="def"/>
     <sdef n="FD"/>
+    <sdef n="vbmod"/>
+    <sdef n="nt"/>
     <sdef n="iv"/>
     <sdef n="tv"/>
+    <sdef n="vaux"/>
     <sdef n="loc"/>
     <sdef n="ind"/>
     <sdef n="m"/>
@@ -55,6 +58,9 @@
     <e><p><l>nor<s n="cnjcoo"/></l><r>nedz<s n="cnjcoo"/></r></p></e>
     <e><p><l>also<s n="adv"/></l><r>arī<s n="cnjcoo"/></r></p></e>
     <e><p><l>but<s n="cnjcoo"/></l><r>bet<s n="cnjcoo"/></r></p></e>
+    <e><p><l>when<s n="cnjadv"/></l><r>kad<s n="adv"/></r></p></e>
+    <e><p><l>although<s n="cnjadv"/></l><r>lai<b/>gan<s n="cnjadv"/></r></p></e>
+    <e><p><l>that<s n="cnjsub"/></l><r>ka<s n="cnjsub"/></r></p></e>
 
 
     <!-- SECTION: Prepositions -->
@@ -91,7 +97,8 @@
     <e r="RL"><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>that<s n="det"/><s n="dem"/></l><r>tas<s n="det"/><s n="dem"/><s n="GD"/></r></p></e>
-    <e><p><l>both<s n="det"/><s n="ind"/></l><r>abi<s n="det"/><s n="ind"/></r></p></e>
+
+    <e><p><l>both<s n="det"/><s n="ind"/><s n="pl"/></l><r>abi<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>kas<s n="det"/><s n="itg"/><s n="sp"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -106,6 +113,13 @@
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>viņi<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
     <e><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>abi<s n="prn"/><s n="def"/><s n="m"/></r></p></e>
+
+    <e><p><l>something<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>kaut<b/>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    
+    <e><p><l>what<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>kāds<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>cits<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECTION: Proper names -->
 
@@ -309,6 +323,8 @@
 
     <!-- SECTION: Nouns -->
     <e><p><l>bull<s n="n"/></l><r>bullis<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>front<s n="n"/></l><r>priekša<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>face<s n="n"/></l><r>seja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thief<s n="n"/></l><r>zaglis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sparrow<s n="n"/></l><r>zvirbulis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>inflammation<s n="n"/></l><r>iekaisums<s n="n"/><s n="m"/></r></p></e>
@@ -422,6 +438,7 @@
     <e><p><l>revolution<s n="n"/></l><r>revolūcija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mode<s n="n"/></l><r>režīms<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>religion<s n="n"/></l><r>reliģija<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>counting<s n="n"/></l><r>skaitīšana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>decision<s n="n"/></l><r>lēmums<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rhythm<s n="n"/></l><r>ritms<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>series<s n="n"/></l><r>sērija<s n="n"/><s n="f"/></r></p></e>
@@ -432,6 +449,7 @@
     <e><p><l>case<s n="n"/></l><r>gadījums<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mixture<s n="n"/></l><r>maisījums<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>collection<s n="n"/></l><r>krājums<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chair<s n="n"/></l><r>krēsls<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>event<s n="n"/></l><r>notikums<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>agreement<s n="n"/></l><r>nolīgums<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>connection<s n="n"/></l><r>savienojums<s n="n"/><s n="m"/></r></p></e>
@@ -469,7 +487,6 @@
     <e><p><l>energy<s n="n"/></l><r>enerģija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mayor<s n="n"/></l><r>mērs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>offensive<s n="n"/></l><r>ofensīva<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>offensive<s n="adj"/></l><r>ofensīva<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>owner<s n="n"/></l><r>īpašnieks<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>war<s n="n"/></l><r>karš<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>knowledge<s n="n"/></l><r>zināšana<s n="n"/><s n="f"/></r></p></e>
@@ -481,7 +498,6 @@
     <e><p><l>source<s n="n"/></l><r>avots<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>conflict<s n="n"/></l><r>konflikts<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>concert<s n="n"/></l><r>koncerts<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>red<s n="adj"/></l><r>sarkans<s n="adj"/></r></p></e>
     <e><p><l>impression<s n="n"/></l><r>iespaids<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Afrikaans<s n="n"/></l><r>Afrikandu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bison<s n="n"/></l><r>bizons<s n="n"/><s n="m"/></r></p></e>
@@ -1768,8 +1784,15 @@
     <e><p><l>two<s n="num"/></l><r>devi<s n="num"/></r></p></e>
     <e><p><l>three<s n="num"/></l><r>trīs<s n="num"/></r></p></e>
     <e><p><l>four<s n="num"/></l><r>četri<s n="num"/></r></p></e>
-    <e><p><l>five<s n="num"/></l><r>pieci<s n="num"/></r></p></e>
-    <e><p><l>six<s n="num"/></l><r>seši<s n="num"/></r></p></e>
+
+    <e r="RL"><p><l>five<s n="num"/><s n="sp"/></l><r>pieci<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>five<s n="num"/><s n="sp"/></l><r>pieci<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>five<s n="num"/><s n="sp"/></l><r>pieci<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
+
+    <e r="RL"><p><l>six<s n="num"/><s n="sp"/></l><r>seši<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>six<s n="num"/><s n="sp"/></l><r>seši<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>six<s n="num"/><s n="sp"/></l><r>seši<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
+
     <e><p><l>seven<s n="num"/></l><r>septiņi<s n="num"/></r></p></e>
     <e><p><l>eight<s n="num"/></l><r>astoņi<s n="num"/></r></p></e>
     <e><p><l>nine<s n="num"/></l><r>deviņi<s n="num"/></r></p></e>
@@ -1815,9 +1838,15 @@
     <!-- SECTION: Adjectives -->
     <e><p><l>brown<s n="adj"/></l><r>brūns<s n="adj"/></r></p></e>
   
+    <e><p><l>offensive<s n="adj"/></l><r>ofensīva<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>red<s n="adj"/></l><r>sarkans<s n="adj"/></r></p></e>
     <e><p><l>early<s n="adj"/><s n="sint"/></l><r>agrs<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nice<s n="adj"/><s n="sint"/></l><r>jauks<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>quick<s n="adj"/><s n="sint"/></l><r>ātrs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>new<s n="adj"/><s n="sint"/></l><r>jauns<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>good<s n="adj"/><s n="sint"/></l><r>labs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>mutual<s n="adj"/></l><r>abpusējs<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sure<s n="adj"/><s n="sint"/></l><r>drošs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>absolute<s n="adj"/></l><r>absolūts<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>abstract<s n="adj"/></l><r>abstrakts<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>absurd<s n="adj"/></l><r>absurds<s n="adj"/><s n="sint"/></r></p></e>
@@ -2650,10 +2679,14 @@
  
     <e r="RL"><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/><s n="loc"/></r></p></e>
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>why<s n="adv"/><s n="itg"/></l><r>kāpēc<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>tur<s n="adv"/></r></p></e>
+    <e><p><l>everywhere<s n="adv"/></l><r>visur<s n="adv"/></r></p></e>
+    <e><p><l>of<b/>course<s n="adv"/></l><r>protams<s n="adv"/></r></p></e>
     <e><p><l>never<s n="adv"/></l><r>nekad<s n="adv"/></r></p></e>
+    <e><p><l>together<s n="adv"/></l><r>kopā<s n="adv"/></r></p></e>
     <e><p><l>here<s n="adv"/></l><r>šeit<s n="adv"/></r></p></e>
     <e><p><l>outside<s n="adv"/></l><r>ārā<s n="adv"/></r></p></e>
     <e><p><l>yet<s n="adv"/></l><r>jau<s n="adv"/></r></p></e>
@@ -2665,15 +2698,31 @@
     <e><p><l>yesterday<s n="adv"/></l><r>vakar<s n="adv"/></r></p></e>
     <e><p><l>today<s n="adv"/></l><r>šodien<s n="adv"/></r></p></e>
     <e><p><l>then<s n="adv"/></l><r>tad<s n="adv"/></r></p></e>
+    <e><p><l>inside<s n="adv"/></l><r>iekšā<s n="adv"/></r></p></e>
+    <e><p><l>around<s n="adv"/></l><r>apkārt<s n="adv"/></r></p></e>
+    <e><p><l>always<s n="adv"/></l><r>vienmēr<s n="adv"/></r></p></e>
+    <e><p><l>near<s n="adv"/></l><r>tuvu<s n="adv"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
     <e><p><l>be<s n="vbser"/></l><r>būt<s n="vbser"/></r></p></e>
+    <e><p><l>can<s n="vaux"/></l><r>varēt<s n="vbmod"/></r></p></e>
 
     <e><p><l>see<s n="vblex"/></l><r>redzēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>get<s n="vblex"/></l><r>dabūt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>obtain<s n="vblex"/></l><r>dabūt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>think<s n="vblex"/></l><r>domāt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>derive<s n="vblex"/></l><r>dabūt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>search<s n="vblex"/></l><r>meklēt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>look<g><b/>for</g><s n="vblex"/></l><r>meklēt<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>hear<s n="vblex"/></l><r>dzirdēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>want<s n="vblex"/></l><r>gribēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>walk<s n="vblex"/></l><r>iet<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>count<s n="vblex"/></l><r>skaitīt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>know<s n="vblex"/></l><r>zināt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>talk<s n="vblex"/></l><r>runāt<s n="vblex"/><s n="iv"/></r></p></e>
+
     <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
     <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
     <e><p><l>escape<s n="vblex"/></l><r>aizbēgt<s n="vblex"/></r></p></e>

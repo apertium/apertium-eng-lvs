@@ -6,9 +6,18 @@
     <def-cat n="nom">
       <cat-item name="nom"/>
     </def-cat>
+    <def-cat n="v">
+      <cat-item name="v"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/>
@@ -18,6 +27,20 @@
   <section-def-vars>
     <def-var n="paraula"/>
   </section-def-vars>
+ 
+  <section-def-macros>
+    <def-macro n="fix-verb1" npar="1">
+        <choose>
+          <when>
+            <test>
+                  <equal><clip pos="1" part="a_nbr"/><lit-tag v="ND"/></equal>
+            </test>
+            <let><clip pos="1" part="a_nbr"/><lit v="sg"/></let>
+          </when>
+        </choose>
+    </def-macro>
+  </section-def-macros>
+
 
   <section-rules>
 
@@ -34,5 +57,22 @@
       </action>
     </rule>
 
+
+    <rule comment="CHUNK:">
+      <pattern>
+        <pattern-item n="v"/>
+      </pattern>
+      <action>
+        <call-macro n="fix-verb1"> 
+          <with-param pos="1"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </postchunk>
