@@ -139,6 +139,7 @@
     <e><p><l>Marija<s n="np"/><s n="ant"/><s n="f"/></l><r>Marija<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganistāna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Paris<s n="np"/><s n="top"/></l><r>Parīze<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Aļaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Australia<s n="np"/><s n="top"/></l><r>Austrālija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Baghdad<s n="np"/><s n="top"/></l><r>Bagdāde<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -1001,7 +1002,7 @@
     <e><p><l>trip<s n="n"/></l><r>ceļojums<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>building<s n="n"/></l><r>celtne<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>champion<s n="n"/></l><r>čempions<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>center<s n="n"/></l><r>centrs<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>centre<s n="n"/></l><r>centrs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ceremony<s n="n"/></l><r>ceremonija<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hope<s n="n"/></l><r>cerība<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>village<s n="n"/></l><r>ciems<s n="n"/><s n="m"/></r></p></e>
