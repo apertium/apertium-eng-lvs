@@ -12051,6 +12051,7 @@
     <e lm="annexation"><i>annexation</i><par n="house__n"/>     </e>
     <e lm="anode"><i>anode</i><par n="house__n"/>     </e>
     <e lm="anointing"><i>anointing</i><par n="house__n"/>     </e>
+    <e lm="counting"><i>counting</i><par n="house__n"/>     </e>
     <e lm="another"><i>another</i><par n="another__det"/>     </e>
     <e lm="another"><i>another</i><par n="everyone__prn"/>     </e>
     <e lm="another one"><i>another<b/>one</i><par n="everyone__prn"/>     </e>

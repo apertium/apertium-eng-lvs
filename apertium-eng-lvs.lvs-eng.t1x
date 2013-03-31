@@ -24,6 +24,9 @@
      <cat-item tags="vblex.*.deb"/>
      <cat-item tags="vbser.deb"/>
   </def-cat>
+  <def-cat n="v-pp-actv">
+     <cat-item tags="vblex.*.pp.actv.*"/>
+  </def-cat>
   <def-cat n="vbser">
      <cat-item tags="vbser.*"/>
   </def-cat>
@@ -467,6 +470,31 @@
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="a_adj"/>
              <clip pos="1" side="tl" part="grau" link-to="3"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
+  <rule>
+     <pattern>
+       <pattern-item n="v-pp-actv"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="pp-actv" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+             <tag><clip pos="1" side="sl" part="grau"/></tag>
+             <tag><clip pos="1" side="sl" part="a_gen"/></tag>
+             <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_vrb"/>
+             <lit-tag v="pp"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>

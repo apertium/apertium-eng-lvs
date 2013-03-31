@@ -2687,6 +2687,8 @@
     <e><p><l>very<s n="preadv"/></l><r>ļoti<s n="preadv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>tur<s n="adv"/></r></p></e>
+    <e><p><l>still<s n="adv"/></l><r>joprojām<s n="adv"/></r></p></e>
+    <e><p><l>again<s n="adv"/></l><r>atkal<s n="adv"/></r></p></e>
     <e><p><l>everywhere<s n="adv"/></l><r>visur<s n="adv"/></r></p></e>
     <e><p><l>of<b/>course<s n="adv"/></l><r>protams<s n="adv"/></r></p></e>
     <e><p><l>never<s n="adv"/></l><r>nekad<s n="adv"/></r></p></e>
@@ -2736,15 +2738,24 @@
     <e><p><l>say<s n="vblex"/></l><r>teikt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>tell<s n="vblex"/></l><r>teikt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>tell<s n="vblex"/></l><r>pasacīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>drink<s n="vblex"/></l><r>iedzert<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>answer<s n="vblex"/></l><r>atbildēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>talk<s n="vblex"/></l><r>runāt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>run<s n="vblex"/></l><r>skriet<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>leave<s n="vblex"/></l><r>aiziet<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>come<s n="vblex"/></l><r>nākt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>arrive<s n="vblex"/></l><r>nākt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>sit<s n="vblex"/></l><r>sēdēt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>sit<s n="vblex"/></l><r>sēst<s n="vblex"/><s n="iv"/></r></p></e>
 
+    <e><p><l>try<s n="vblex"/></l><r>censties<s n="vblex"/><s n="ref"/></r></p></e>
     <e><p><l>play<s n="vblex"/></l><r>spēlēties<s n="vblex"/><s n="ref"/></r></p></e>
     <e><p><l>look<s n="vblex"/></l><r>skatīties<s n="vblex"/><s n="ref"/></r></p></e>
     <e><p><l>see<s n="vblex"/></l><r>skatīties<s n="vblex"/><s n="ref"/></r></p></e>
     <e><p><l>listen<s n="vblex"/></l><r>klausīties<s n="vblex"/><s n="ref"/></r></p></e>
     <e><p><l>hear<s n="vblex"/></l><r>klausīties<s n="vblex"/><s n="ref"/></r></p></e>
+    <e><p><l>hide<s n="vblex"/></l><r>slēpties<s n="vblex"/><s n="ref"/></r></p></e>
+    <e><p><l>smile<s n="vblex"/></l><r>smieties<s n="vblex"/><s n="ref"/></r></p></e>
 
     <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
     <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
