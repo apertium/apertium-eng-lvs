@@ -8,6 +8,7 @@
     <sdef n="ij"/>
     <sdef n="def"/>
     <sdef n="FD"/>
+    <sdef n="neg"/>
     <sdef n="vbmod"/>
     <sdef n="nt"/>
     <sdef n="ref"/>
@@ -116,8 +117,10 @@
     <e><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>abi<s n="prn"/><s n="def"/><s n="m"/></r></p></e>
 
     <e><p><l>something<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>kaut<b/>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
-
+    <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>nekas<s n="prn"/><s n="neg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>nothing<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>nekas<s n="prn"/><s n="neg"/><s n="mf"/><s n="sp"/></r></p></e>
     
+    <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><s n="loc"/></r></p></e>
     <e><p><l>what<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>kāds<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>cits<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>

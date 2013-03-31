@@ -1,285 +1,503 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <tagger name="latvian">
 <tagset>
 <!--
-  423 single tags
-  213 multiple tags
+  1235 single tags
+  492 multiple tags
 -->
-  <def-label name="adj.sint.comp.def.f.pl.acc" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.pl.acc"/>
+  <def-label name="quot" closed="true">
+    <tags-item tags="quot"/>
+    <tags-item tags="lquot"/>
+    <tags-item tags="rquot"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.pl.dat" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.pl.dat"/>
+  <def-label name="abbr">
+    <tags-item tags="abbr"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.pl.gen" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.pl.gen"/>
+  <def-label name="adj.f.pl.acc.def">
+    <tags-item tags="adj.f.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.pl.loc" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.pl.loc"/>
+  <def-label name="adj.f.pl.acc.ind">
+    <tags-item tags="adj.f.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.pl.nom" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.pl.nom"/>
+  <def-label name="adj.f.pl.dat.def">
+    <tags-item tags="adj.f.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.pl.voc" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.pl.voc"/>
+  <def-label name="adj.f.pl.dat.ind">
+    <tags-item tags="adj.f.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.sg.acc" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.sg.acc"/>
+  <def-label name="adj.f.pl.gen.def">
+    <tags-item tags="adj.f.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.sg.dat" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.sg.dat"/>
+  <def-label name="adj.f.pl.gen.ind">
+    <tags-item tags="adj.f.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.sg.gen" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.sg.gen"/>
+  <def-label name="adj.f.pl.loc.def">
+    <tags-item tags="adj.f.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.sg.loc" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.sg.loc"/>
+  <def-label name="adj.f.pl.loc.ind">
+    <tags-item tags="adj.f.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.sg.nom" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.sg.nom"/>
+  <def-label name="adj.f.pl.nom.def">
+    <tags-item tags="adj.f.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.f.sg.voc" closed="true">
-    <tags-item tags="adj.sint.comp.def.f.sg.voc"/>
+  <def-label name="adj.f.pl.nom.ind">
+    <tags-item tags="adj.f.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.pl.acc" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.pl.acc"/>
+  <def-label name="adj.f.pl.voc.def">
+    <tags-item tags="adj.f.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.pl.dat" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.pl.dat"/>
+  <def-label name="adj.f.sg.acc.def">
+    <tags-item tags="adj.f.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.pl.gen" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.pl.gen"/>
+  <def-label name="adj.f.sg.acc.ind">
+    <tags-item tags="adj.f.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.pl.loc" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.pl.loc"/>
+  <def-label name="adj.f.sg.dat.def">
+    <tags-item tags="adj.f.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.pl.nom" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.pl.nom"/>
+  <def-label name="adj.f.sg.dat.ind">
+    <tags-item tags="adj.f.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.pl.voc" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.pl.voc"/>
+  <def-label name="adj.f.sg.gen.def">
+    <tags-item tags="adj.f.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.sg.acc" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.sg.acc"/>
+  <def-label name="adj.f.sg.gen.ind">
+    <tags-item tags="adj.f.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.sg.dat" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.sg.dat"/>
+  <def-label name="adj.f.sg.loc.def">
+    <tags-item tags="adj.f.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.sg.gen" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.sg.gen"/>
+  <def-label name="adj.f.sg.loc.ind">
+    <tags-item tags="adj.f.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.sg.loc" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.sg.loc"/>
+  <def-label name="adj.f.sg.nom.def">
+    <tags-item tags="adj.f.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.sg.nom" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.sg.nom"/>
+  <def-label name="adj.f.sg.nom.ind">
+    <tags-item tags="adj.f.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.def.m.sg.voc" closed="true">
-    <tags-item tags="adj.sint.comp.def.m.sg.voc"/>
+  <def-label name="adj.f.sg.voc.def">
+    <tags-item tags="adj.f.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.pl.acc" closed="true">
-    <tags-item tags="adj.sint.comp.f.pl.acc"/>
+  <def-label name="adj.m.pl.acc.def">
+    <tags-item tags="adj.m.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.pl.dat" closed="true">
-    <tags-item tags="adj.sint.comp.f.pl.dat"/>
+  <def-label name="adj.m.pl.acc.ind">
+    <tags-item tags="adj.m.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.pl.gen" closed="true">
-    <tags-item tags="adj.sint.comp.f.pl.gen"/>
+  <def-label name="adj.m.pl.dat.def">
+    <tags-item tags="adj.m.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.pl.loc" closed="true">
-    <tags-item tags="adj.sint.comp.f.pl.loc"/>
+  <def-label name="adj.m.pl.dat.ind">
+    <tags-item tags="adj.m.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.pl.nom" closed="true">
-    <tags-item tags="adj.sint.comp.f.pl.nom"/>
+  <def-label name="adj.m.pl.gen.def">
+    <tags-item tags="adj.m.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.sg.acc" closed="true">
-    <tags-item tags="adj.sint.comp.f.sg.acc"/>
+  <def-label name="adj.m.pl.gen.ind">
+    <tags-item tags="adj.m.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.sg.dat" closed="true">
-    <tags-item tags="adj.sint.comp.f.sg.dat"/>
+  <def-label name="adj.m.pl.loc.def">
+    <tags-item tags="adj.m.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.sg.gen" closed="true">
-    <tags-item tags="adj.sint.comp.f.sg.gen"/>
+  <def-label name="adj.m.pl.loc.ind">
+    <tags-item tags="adj.m.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.sg.loc" closed="true">
-    <tags-item tags="adj.sint.comp.f.sg.loc"/>
+  <def-label name="adj.m.pl.nom.def">
+    <tags-item tags="adj.m.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.f.sg.nom" closed="true">
-    <tags-item tags="adj.sint.comp.f.sg.nom"/>
+  <def-label name="adj.m.pl.nom.ind">
+    <tags-item tags="adj.m.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.pl.acc" closed="true">
-    <tags-item tags="adj.sint.comp.m.pl.acc"/>
+  <def-label name="adj.m.pl.voc.def">
+    <tags-item tags="adj.m.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.pl.dat" closed="true">
-    <tags-item tags="adj.sint.comp.m.pl.dat"/>
+  <def-label name="adj.m.sg.acc.def">
+    <tags-item tags="adj.m.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.pl.gen" closed="true">
-    <tags-item tags="adj.sint.comp.m.pl.gen"/>
+  <def-label name="adj.m.sg.acc.ind">
+    <tags-item tags="adj.m.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.pl.loc" closed="true">
-    <tags-item tags="adj.sint.comp.m.pl.loc"/>
+  <def-label name="adj.m.sg.dat.def">
+    <tags-item tags="adj.m.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.pl.nom" closed="true">
-    <tags-item tags="adj.sint.comp.m.pl.nom"/>
+  <def-label name="adj.m.sg.dat.ind">
+    <tags-item tags="adj.m.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.sg.acc" closed="true">
-    <tags-item tags="adj.sint.comp.m.sg.acc"/>
+  <def-label name="adj.m.sg.gen.def">
+    <tags-item tags="adj.m.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.sg.dat" closed="true">
-    <tags-item tags="adj.sint.comp.m.sg.dat"/>
+  <def-label name="adj.m.sg.gen.ind">
+    <tags-item tags="adj.m.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.sg.gen" closed="true">
-    <tags-item tags="adj.sint.comp.m.sg.gen"/>
+  <def-label name="adj.m.sg.loc.def">
+    <tags-item tags="adj.m.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.sg.loc" closed="true">
-    <tags-item tags="adj.sint.comp.m.sg.loc"/>
+  <def-label name="adj.m.sg.loc.ind">
+    <tags-item tags="adj.m.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.comp.m.sg.nom" closed="true">
-    <tags-item tags="adj.sint.comp.m.sg.nom"/>
+  <def-label name="adj.m.sg.nom.def">
+    <tags-item tags="adj.m.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.pl.acc" closed="true">
-    <tags-item tags="adj.sint.def.f.pl.acc"/>
+  <def-label name="adj.m.sg.nom.ind">
+    <tags-item tags="adj.m.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.f.pl.dat" closed="true">
-    <tags-item tags="adj.sint.def.f.pl.dat"/>
+  <def-label name="adj.m.sg.voc.def">
+    <tags-item tags="adj.m.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.pl.gen" closed="true">
-    <tags-item tags="adj.sint.def.f.pl.gen"/>
+  <def-label name="adj.sint.comp.f.pl.acc.def">
+    <tags-item tags="adj.sint.comp.f.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.pl.loc" closed="true">
-    <tags-item tags="adj.sint.def.f.pl.loc"/>
+  <def-label name="adj.sint.comp.f.pl.acc.ind">
+    <tags-item tags="adj.sint.comp.f.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.f.pl.nom" closed="true">
-    <tags-item tags="adj.sint.def.f.pl.nom"/>
+  <def-label name="adj.sint.comp.f.pl.dat.def">
+    <tags-item tags="adj.sint.comp.f.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.pl.voc" closed="true">
-    <tags-item tags="adj.sint.def.f.pl.voc"/>
+  <def-label name="adj.sint.comp.f.pl.dat.ind">
+    <tags-item tags="adj.sint.comp.f.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.f.sg.acc" closed="true">
-    <tags-item tags="adj.sint.def.f.sg.acc"/>
+  <def-label name="adj.sint.comp.f.pl.gen.def">
+    <tags-item tags="adj.sint.comp.f.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.sg.dat" closed="true">
-    <tags-item tags="adj.sint.def.f.sg.dat"/>
+  <def-label name="adj.sint.comp.f.pl.gen.ind">
+    <tags-item tags="adj.sint.comp.f.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.f.sg.gen" closed="true">
-    <tags-item tags="adj.sint.def.f.sg.gen"/>
+  <def-label name="adj.sint.comp.f.pl.loc.def">
+    <tags-item tags="adj.sint.comp.f.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.sg.loc" closed="true">
-    <tags-item tags="adj.sint.def.f.sg.loc"/>
+  <def-label name="adj.sint.comp.f.pl.loc.ind">
+    <tags-item tags="adj.sint.comp.f.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.f.sg.nom" closed="true">
-    <tags-item tags="adj.sint.def.f.sg.nom"/>
+  <def-label name="adj.sint.comp.f.pl.nom.def">
+    <tags-item tags="adj.sint.comp.f.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.def.f.sg.voc" closed="true">
-    <tags-item tags="adj.sint.def.f.sg.voc"/>
+  <def-label name="adj.sint.comp.f.pl.nom.ind">
+    <tags-item tags="adj.sint.comp.f.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.m.pl.acc" closed="true">
-    <tags-item tags="adj.sint.def.m.pl.acc"/>
+  <def-label name="adj.sint.comp.f.pl.voc.def">
+    <tags-item tags="adj.sint.comp.f.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.def.m.pl.dat" closed="true">
-    <tags-item tags="adj.sint.def.m.pl.dat"/>
+  <def-label name="adj.sint.comp.f.sg.acc.def">
+    <tags-item tags="adj.sint.comp.f.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.def.m.pl.gen" closed="true">
-    <tags-item tags="adj.sint.def.m.pl.gen"/>
+  <def-label name="adj.sint.comp.f.sg.acc.ind">
+    <tags-item tags="adj.sint.comp.f.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.m.pl.loc" closed="true">
-    <tags-item tags="adj.sint.def.m.pl.loc"/>
+  <def-label name="adj.sint.comp.f.sg.dat.def">
+    <tags-item tags="adj.sint.comp.f.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.def.m.pl.nom" closed="true">
-    <tags-item tags="adj.sint.def.m.pl.nom"/>
+  <def-label name="adj.sint.comp.f.sg.dat.ind">
+    <tags-item tags="adj.sint.comp.f.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.m.pl.voc" closed="true">
-    <tags-item tags="adj.sint.def.m.pl.voc"/>
+  <def-label name="adj.sint.comp.f.sg.gen.def">
+    <tags-item tags="adj.sint.comp.f.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.def.m.sg.acc" closed="true">
-    <tags-item tags="adj.sint.def.m.sg.acc"/>
+  <def-label name="adj.sint.comp.f.sg.gen.ind">
+    <tags-item tags="adj.sint.comp.f.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.m.sg.dat" closed="true">
-    <tags-item tags="adj.sint.def.m.sg.dat"/>
+  <def-label name="adj.sint.comp.f.sg.loc.def">
+    <tags-item tags="adj.sint.comp.f.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.def.m.sg.gen" closed="true">
-    <tags-item tags="adj.sint.def.m.sg.gen"/>
+  <def-label name="adj.sint.comp.f.sg.loc.ind">
+    <tags-item tags="adj.sint.comp.f.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.m.sg.loc" closed="true">
-    <tags-item tags="adj.sint.def.m.sg.loc"/>
+  <def-label name="adj.sint.comp.f.sg.nom.def">
+    <tags-item tags="adj.sint.comp.f.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.def.m.sg.nom" closed="true">
-    <tags-item tags="adj.sint.def.m.sg.nom"/>
+  <def-label name="adj.sint.comp.f.sg.nom.ind">
+    <tags-item tags="adj.sint.comp.f.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.def.m.sg.voc" closed="true">
-    <tags-item tags="adj.sint.def.m.sg.voc"/>
+  <def-label name="adj.sint.comp.f.sg.voc.def">
+    <tags-item tags="adj.sint.comp.f.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.f.pl.acc" closed="true">
-    <tags-item tags="adj.sint.f.pl.acc"/>
+  <def-label name="adj.sint.comp.m.pl.acc.def">
+    <tags-item tags="adj.sint.comp.m.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.f.pl.dat" closed="true">
-    <tags-item tags="adj.sint.f.pl.dat"/>
+  <def-label name="adj.sint.comp.m.pl.acc.ind">
+    <tags-item tags="adj.sint.comp.m.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.f.pl.gen" closed="true">
-    <tags-item tags="adj.sint.f.pl.gen"/>
+  <def-label name="adj.sint.comp.m.pl.dat.def">
+    <tags-item tags="adj.sint.comp.m.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.f.pl.loc" closed="true">
-    <tags-item tags="adj.sint.f.pl.loc"/>
+  <def-label name="adj.sint.comp.m.pl.dat.ind">
+    <tags-item tags="adj.sint.comp.m.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.f.pl.nom" closed="true">
-    <tags-item tags="adj.sint.f.pl.nom"/>
+  <def-label name="adj.sint.comp.m.pl.gen.def">
+    <tags-item tags="adj.sint.comp.m.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.f.sg.acc" closed="true">
-    <tags-item tags="adj.sint.f.sg.acc"/>
+  <def-label name="adj.sint.comp.m.pl.gen.ind">
+    <tags-item tags="adj.sint.comp.m.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.f.sg.dat" closed="true">
-    <tags-item tags="adj.sint.f.sg.dat"/>
+  <def-label name="adj.sint.comp.m.pl.loc.def">
+    <tags-item tags="adj.sint.comp.m.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.f.sg.gen" closed="true">
-    <tags-item tags="adj.sint.f.sg.gen"/>
+  <def-label name="adj.sint.comp.m.pl.loc.ind">
+    <tags-item tags="adj.sint.comp.m.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.f.sg.loc" closed="true">
-    <tags-item tags="adj.sint.f.sg.loc"/>
+  <def-label name="adj.sint.comp.m.pl.nom.def">
+    <tags-item tags="adj.sint.comp.m.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.sint.f.sg.nom" closed="true">
-    <tags-item tags="adj.sint.f.sg.nom"/>
+  <def-label name="adj.sint.comp.m.pl.nom.ind">
+    <tags-item tags="adj.sint.comp.m.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.sint.m.pl.acc" closed="true">
-    <tags-item tags="adj.sint.m.pl.acc"/>
+  <def-label name="adj.sint.comp.m.pl.voc.def">
+    <tags-item tags="adj.sint.comp.m.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.sint.m.pl.dat" closed="true">
-    <tags-item tags="adj.sint.m.pl.dat"/>
+  <def-label name="adj.sint.comp.m.sg.acc.def">
+    <tags-item tags="adj.sint.comp.m.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.sint.m.pl.gen" closed="true">
-    <tags-item tags="adj.sint.m.pl.gen"/>
+  <def-label name="adj.sint.comp.m.sg.acc.ind">
+    <tags-item tags="adj.sint.comp.m.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.sint.m.pl.loc" closed="true">
-    <tags-item tags="adj.sint.m.pl.loc"/>
+  <def-label name="adj.sint.comp.m.sg.dat.def">
+    <tags-item tags="adj.sint.comp.m.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.sint.m.pl.nom" closed="true">
-    <tags-item tags="adj.sint.m.pl.nom"/>
+  <def-label name="adj.sint.comp.m.sg.dat.ind">
+    <tags-item tags="adj.sint.comp.m.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.sint.m.sg.acc" closed="true">
-    <tags-item tags="adj.sint.m.sg.acc"/>
+  <def-label name="adj.sint.comp.m.sg.gen.def">
+    <tags-item tags="adj.sint.comp.m.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.sint.m.sg.dat" closed="true">
-    <tags-item tags="adj.sint.m.sg.dat"/>
+  <def-label name="adj.sint.comp.m.sg.gen.ind">
+    <tags-item tags="adj.sint.comp.m.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.sint.m.sg.gen" closed="true">
-    <tags-item tags="adj.sint.m.sg.gen"/>
+  <def-label name="adj.sint.comp.m.sg.loc.def">
+    <tags-item tags="adj.sint.comp.m.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.sint.m.sg.loc" closed="true">
-    <tags-item tags="adj.sint.m.sg.loc"/>
+  <def-label name="adj.sint.comp.m.sg.loc.ind">
+    <tags-item tags="adj.sint.comp.m.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.sint.m.sg.nom" closed="true">
-    <tags-item tags="adj.sint.m.sg.nom"/>
+  <def-label name="adj.sint.comp.m.sg.nom.def">
+    <tags-item tags="adj.sint.comp.m.sg.nom.def"/>
   </def-label>
-  <def-label name="adv" closed="true">
+  <def-label name="adj.sint.comp.m.sg.nom.ind">
+    <tags-item tags="adj.sint.comp.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="adj.sint.comp.m.sg.voc.def">
+    <tags-item tags="adj.sint.comp.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.acc.def">
+    <tags-item tags="adj.sint.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.acc.ind">
+    <tags-item tags="adj.sint.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.dat.def">
+    <tags-item tags="adj.sint.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.dat.ind">
+    <tags-item tags="adj.sint.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.gen.def">
+    <tags-item tags="adj.sint.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.gen.ind">
+    <tags-item tags="adj.sint.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.loc.def">
+    <tags-item tags="adj.sint.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.loc.ind">
+    <tags-item tags="adj.sint.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.nom.def">
+    <tags-item tags="adj.sint.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.nom.ind">
+    <tags-item tags="adj.sint.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.pl.voc.def">
+    <tags-item tags="adj.sint.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.acc.def">
+    <tags-item tags="adj.sint.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.acc.ind">
+    <tags-item tags="adj.sint.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.dat.def">
+    <tags-item tags="adj.sint.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.dat.ind">
+    <tags-item tags="adj.sint.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.gen.def">
+    <tags-item tags="adj.sint.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.gen.ind">
+    <tags-item tags="adj.sint.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.loc.def">
+    <tags-item tags="adj.sint.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.loc.ind">
+    <tags-item tags="adj.sint.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.nom.def">
+    <tags-item tags="adj.sint.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.nom.ind">
+    <tags-item tags="adj.sint.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="adj.sint.f.sg.voc.def">
+    <tags-item tags="adj.sint.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.acc.def">
+    <tags-item tags="adj.sint.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.acc.ind">
+    <tags-item tags="adj.sint.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.dat.def">
+    <tags-item tags="adj.sint.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.dat.ind">
+    <tags-item tags="adj.sint.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.gen.def">
+    <tags-item tags="adj.sint.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.gen.ind">
+    <tags-item tags="adj.sint.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.loc.def">
+    <tags-item tags="adj.sint.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.loc.ind">
+    <tags-item tags="adj.sint.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.nom.def">
+    <tags-item tags="adj.sint.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.nom.ind">
+    <tags-item tags="adj.sint.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.pl.voc.def">
+    <tags-item tags="adj.sint.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.acc.def">
+    <tags-item tags="adj.sint.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.acc.ind">
+    <tags-item tags="adj.sint.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.dat.def">
+    <tags-item tags="adj.sint.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.dat.ind">
+    <tags-item tags="adj.sint.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.gen.def">
+    <tags-item tags="adj.sint.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.gen.ind">
+    <tags-item tags="adj.sint.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.loc.def">
+    <tags-item tags="adj.sint.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.loc.ind">
+    <tags-item tags="adj.sint.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.nom.def">
+    <tags-item tags="adj.sint.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.nom.ind">
+    <tags-item tags="adj.sint.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="adj.sint.m.sg.voc.def">
+    <tags-item tags="adj.sint.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.pl.acc.def">
+    <tags-item tags="adj.sint.sup.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.pl.dat.def">
+    <tags-item tags="adj.sint.sup.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.pl.gen.def">
+    <tags-item tags="adj.sint.sup.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.pl.loc.def">
+    <tags-item tags="adj.sint.sup.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.pl.nom.def">
+    <tags-item tags="adj.sint.sup.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.pl.voc.def">
+    <tags-item tags="adj.sint.sup.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.sg.acc.def">
+    <tags-item tags="adj.sint.sup.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.sg.dat.def">
+    <tags-item tags="adj.sint.sup.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.sg.gen.def">
+    <tags-item tags="adj.sint.sup.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.sg.loc.def">
+    <tags-item tags="adj.sint.sup.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.sg.nom.def">
+    <tags-item tags="adj.sint.sup.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.f.sg.voc.def">
+    <tags-item tags="adj.sint.sup.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.pl.acc.def">
+    <tags-item tags="adj.sint.sup.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.pl.dat.def">
+    <tags-item tags="adj.sint.sup.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.pl.gen.def">
+    <tags-item tags="adj.sint.sup.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.pl.loc.def">
+    <tags-item tags="adj.sint.sup.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.pl.nom.def">
+    <tags-item tags="adj.sint.sup.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.pl.voc.def">
+    <tags-item tags="adj.sint.sup.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.sg.acc.def">
+    <tags-item tags="adj.sint.sup.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.sg.dat.def">
+    <tags-item tags="adj.sint.sup.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.sg.gen.def">
+    <tags-item tags="adj.sint.sup.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.sg.loc.def">
+    <tags-item tags="adj.sint.sup.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.sg.nom.def">
+    <tags-item tags="adj.sint.sup.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="adj.sint.sup.m.sg.voc.def">
+    <tags-item tags="adj.sint.sup.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="adv">
     <tags-item tags="adv"/>
   </def-label>
   <def-label name="adv.itg" closed="true">
     <tags-item tags="adv.itg"/>
   </def-label>
-  <def-label name="adv.sint.comp" closed="true">
+  <def-label name="adv.sint">
+    <tags-item tags="adv.sint"/>
+  </def-label>
+  <def-label name="adv.sint.comp">
     <tags-item tags="adv.sint.comp"/>
   </def-label>
-  <def-label name="adv.sint.pos" closed="true">
-    <tags-item tags="adv.sint.pos"/>
+  <def-label name="adv.sint.sup">
+    <tags-item tags="adv.sint.sup"/>
+  </def-label>
+  <def-label name="apos" closed="true">
+    <tags-item tags="apos"/>
   </def-label>
   <def-label name="cm" closed="true">
     <tags-item tags="cm"/>
@@ -293,247 +511,455 @@
   <def-label name="cnjsub" closed="true">
     <tags-item tags="cnjsub"/>
   </def-label>
-  <def-label name="det.dem.pl.f.acc" closed="true">
-    <tags-item tags="det.dem.pl.f.acc"/>
+  <def-label name="det.dem.f.pl.acc" closed="true">
+    <tags-item tags="det.dem.f.pl.acc"/>
   </def-label>
-  <def-label name="det.dem.pl.f.dat" closed="true">
-    <tags-item tags="det.dem.pl.f.dat"/>
+  <def-label name="det.dem.f.pl.dat" closed="true">
+    <tags-item tags="det.dem.f.pl.dat"/>
   </def-label>
-  <def-label name="det.dem.pl.f.gen" closed="true">
-    <tags-item tags="det.dem.pl.f.gen"/>
+  <def-label name="det.dem.f.pl.gen" closed="true">
+    <tags-item tags="det.dem.f.pl.gen"/>
   </def-label>
-  <def-label name="det.dem.pl.f.loc" closed="true">
-    <tags-item tags="det.dem.pl.f.loc"/>
+  <def-label name="det.dem.f.pl.loc" closed="true">
+    <tags-item tags="det.dem.f.pl.loc"/>
   </def-label>
-  <def-label name="det.dem.pl.f.nom" closed="true">
-    <tags-item tags="det.dem.pl.f.nom"/>
+  <def-label name="det.dem.f.pl.nom" closed="true">
+    <tags-item tags="det.dem.f.pl.nom"/>
   </def-label>
-  <def-label name="det.dem.pl.m.acc" closed="true">
-    <tags-item tags="det.dem.pl.m.acc"/>
+  <def-label name="det.dem.f.sg.acc" closed="true">
+    <tags-item tags="det.dem.f.sg.acc"/>
   </def-label>
-  <def-label name="det.dem.pl.m.dat" closed="true">
-    <tags-item tags="det.dem.pl.m.dat"/>
+  <def-label name="det.dem.f.sg.dat" closed="true">
+    <tags-item tags="det.dem.f.sg.dat"/>
   </def-label>
-  <def-label name="det.dem.pl.mf.loc" closed="true">
-    <tags-item tags="det.dem.pl.mf.loc"/>
+  <def-label name="det.dem.f.sg.gen" closed="true">
+    <tags-item tags="det.dem.f.sg.gen"/>
   </def-label>
-  <def-label name="det.dem.pl.m.gen" closed="true">
-    <tags-item tags="det.dem.pl.m.gen"/>
+  <def-label name="det.dem.f.sg.loc" closed="true">
+    <tags-item tags="det.dem.f.sg.loc"/>
   </def-label>
-  <def-label name="det.dem.pl.m.loc" closed="true">
-    <tags-item tags="det.dem.pl.m.loc"/>
+  <def-label name="det.dem.f.sg.nom" closed="true">
+    <tags-item tags="det.dem.f.sg.nom"/>
   </def-label>
-  <def-label name="det.dem.pl.m.nom" closed="true">
-    <tags-item tags="det.dem.pl.m.nom"/>
+  <def-label name="det.dem.mf.pl.loc" closed="true">
+    <tags-item tags="det.dem.mf.pl.loc"/>
   </def-label>
-  <def-label name="det.dem.sg.f.acc" closed="true">
-    <tags-item tags="det.dem.sg.f.acc"/>
+  <def-label name="det.dem.mf.sg.loc" closed="true">
+    <tags-item tags="det.dem.mf.sg.loc"/>
   </def-label>
-  <def-label name="det.dem.sg.f.dat" closed="true">
-    <tags-item tags="det.dem.sg.f.dat"/>
+  <def-label name="det.dem.m.pl.acc" closed="true">
+    <tags-item tags="det.dem.m.pl.acc"/>
   </def-label>
-  <def-label name="det.dem.sg.f.gen" closed="true">
-    <tags-item tags="det.dem.sg.f.gen"/>
+  <def-label name="det.dem.m.pl.dat" closed="true">
+    <tags-item tags="det.dem.m.pl.dat"/>
   </def-label>
-  <def-label name="det.dem.sg.f.loc" closed="true">
-    <tags-item tags="det.dem.sg.f.loc"/>
+  <def-label name="det.dem.m.pl.gen" closed="true">
+    <tags-item tags="det.dem.m.pl.gen"/>
   </def-label>
-  <def-label name="det.dem.sg.f.nom" closed="true">
-    <tags-item tags="det.dem.sg.f.nom"/>
+  <def-label name="det.dem.m.pl.loc" closed="true">
+    <tags-item tags="det.dem.m.pl.loc"/>
   </def-label>
-  <def-label name="det.dem.sg.m.acc" closed="true">
-    <tags-item tags="det.dem.sg.m.acc"/>
+  <def-label name="det.dem.m.pl.nom" closed="true">
+    <tags-item tags="det.dem.m.pl.nom"/>
   </def-label>
-  <def-label name="det.dem.sg.m.dat" closed="true">
-    <tags-item tags="det.dem.sg.m.dat"/>
+  <def-label name="det.dem.m.sg.acc" closed="true">
+    <tags-item tags="det.dem.m.sg.acc"/>
   </def-label>
-  <def-label name="det.dem.sg.mf.loc" closed="true">
-    <tags-item tags="det.dem.sg.mf.loc"/>
+  <def-label name="det.dem.m.sg.dat" closed="true">
+    <tags-item tags="det.dem.m.sg.dat"/>
   </def-label>
-  <def-label name="det.dem.sg.m.gen" closed="true">
-    <tags-item tags="det.dem.sg.m.gen"/>
+  <def-label name="det.dem.m.sg.gen" closed="true">
+    <tags-item tags="det.dem.m.sg.gen"/>
   </def-label>
-  <def-label name="det.dem.sg.m.loc" closed="true">
-    <tags-item tags="det.dem.sg.m.loc"/>
+  <def-label name="det.dem.m.sg.loc" closed="true">
+    <tags-item tags="det.dem.m.sg.loc"/>
   </def-label>
-  <def-label name="det.dem.sg.m.nom" closed="true">
-    <tags-item tags="det.dem.sg.m.nom"/>
+  <def-label name="det.dem.m.sg.nom" closed="true">
+    <tags-item tags="det.dem.m.sg.nom"/>
   </def-label>
-  <def-label name="det.itg.sp.mf.acc" closed="true">
-    <tags-item tags="det.itg.sp.mf.acc"/>
+  <def-label name="det.ind.f.pl.acc" closed="true">
+    <tags-item tags="det.ind.f.pl.acc"/>
   </def-label>
-  <def-label name="det.itg.sp.mf.dat" closed="true">
-    <tags-item tags="det.itg.sp.mf.dat"/>
+  <def-label name="det.ind.f.pl.dat" closed="true">
+    <tags-item tags="det.ind.f.pl.dat"/>
   </def-label>
-  <def-label name="det.itg.sp.mf.gen" closed="true">
-    <tags-item tags="det.itg.sp.mf.gen"/>
+  <def-label name="det.ind.f.pl.gen" closed="true">
+    <tags-item tags="det.ind.f.pl.gen"/>
   </def-label>
-  <def-label name="det.itg.sp.mf.nom" closed="true">
-    <tags-item tags="det.itg.sp.mf.nom"/>
+  <def-label name="det.ind.f.pl.loc" closed="true">
+    <tags-item tags="det.ind.f.pl.loc"/>
+  </def-label>
+  <def-label name="det.ind.f.pl.nom" closed="true">
+    <tags-item tags="det.ind.f.pl.nom"/>
+  </def-label>
+  <def-label name="det.ind.m.pl.acc" closed="true">
+    <tags-item tags="det.ind.m.pl.acc"/>
+  </def-label>
+  <def-label name="det.ind.m.pl.dat" closed="true">
+    <tags-item tags="det.ind.m.pl.dat"/>
+  </def-label>
+  <def-label name="det.ind.m.pl.gen" closed="true">
+    <tags-item tags="det.ind.m.pl.gen"/>
+  </def-label>
+  <def-label name="det.ind.m.pl.loc" closed="true">
+    <tags-item tags="det.ind.m.pl.loc"/>
+  </def-label>
+  <def-label name="det.ind.m.pl.nom" closed="true">
+    <tags-item tags="det.ind.m.pl.nom"/>
+  </def-label>
+  <def-label name="det.pos.f.pl.acc" closed="true">
+    <tags-item tags="det.pos.f.pl.acc"/>
+  </def-label>
+  <def-label name="det.pos.f.pl.dat" closed="true">
+    <tags-item tags="det.pos.f.pl.dat"/>
+  </def-label>
+  <def-label name="det.pos.f.pl.gen" closed="true">
+    <tags-item tags="det.pos.f.pl.gen"/>
+  </def-label>
+  <def-label name="det.pos.f.pl.loc" closed="true">
+    <tags-item tags="det.pos.f.pl.loc"/>
+  </def-label>
+  <def-label name="det.pos.f.pl.nom" closed="true">
+    <tags-item tags="det.pos.f.pl.nom"/>
+  </def-label>
+  <def-label name="det.pos.f.sg.acc" closed="true">
+    <tags-item tags="det.pos.f.sg.acc"/>
+  </def-label>
+  <def-label name="det.pos.f.sg.dat" closed="true">
+    <tags-item tags="det.pos.f.sg.dat"/>
+  </def-label>
+  <def-label name="det.pos.f.sg.gen" closed="true">
+    <tags-item tags="det.pos.f.sg.gen"/>
+  </def-label>
+  <def-label name="det.pos.f.sg.loc" closed="true">
+    <tags-item tags="det.pos.f.sg.loc"/>
+  </def-label>
+  <def-label name="det.pos.f.sg.nom" closed="true">
+    <tags-item tags="det.pos.f.sg.nom"/>
+  </def-label>
+  <def-label name="det.pos.m.pl.acc" closed="true">
+    <tags-item tags="det.pos.m.pl.acc"/>
+  </def-label>
+  <def-label name="det.pos.m.pl.dat" closed="true">
+    <tags-item tags="det.pos.m.pl.dat"/>
+  </def-label>
+  <def-label name="det.pos.m.pl.gen" closed="true">
+    <tags-item tags="det.pos.m.pl.gen"/>
+  </def-label>
+  <def-label name="det.pos.m.pl.loc" closed="true">
+    <tags-item tags="det.pos.m.pl.loc"/>
+  </def-label>
+  <def-label name="det.pos.m.pl.nom" closed="true">
+    <tags-item tags="det.pos.m.pl.nom"/>
+  </def-label>
+  <def-label name="det.pos.m.sg.acc" closed="true">
+    <tags-item tags="det.pos.m.sg.acc"/>
+  </def-label>
+  <def-label name="det.pos.m.sg.dat" closed="true">
+    <tags-item tags="det.pos.m.sg.dat"/>
+  </def-label>
+  <def-label name="det.pos.m.sg.gen" closed="true">
+    <tags-item tags="det.pos.m.sg.gen"/>
+  </def-label>
+  <def-label name="det.pos.m.sg.loc" closed="true">
+    <tags-item tags="det.pos.m.sg.loc"/>
+  </def-label>
+  <def-label name="det.pos.m.sg.nom" closed="true">
+    <tags-item tags="det.pos.m.sg.nom"/>
+  </def-label>
+  <def-label name="guio" closed="true">
+    <tags-item tags="guio"/>
+  </def-label>
+  <def-label name="ij" closed="true">
+    <tags-item tags="ij"/>
   </def-label>
   <def-label name="n.f.pl.abl">
     <tags-item tags="n.f.pl.abl"/>
-    <tags-item tags="np.ant.f.pl.abl"/>
-    <tags-item tags="np.top.f.pl.abl"/>
   </def-label>
   <def-label name="n.f.pl.acc">
     <tags-item tags="n.f.pl.acc"/>
-    <tags-item tags="np.ant.f.pl.acc"/>
-    <tags-item tags="np.top.f.pl.acc"/>
   </def-label>
   <def-label name="n.f.pl.dat">
     <tags-item tags="n.f.pl.dat"/>
-    <tags-item tags="np.ant.f.pl.dat"/>
-    <tags-item tags="np.top.f.pl.dat"/>
   </def-label>
   <def-label name="n.f.pl.gen">
     <tags-item tags="n.f.pl.gen"/>
-    <tags-item tags="np.ant.f.pl.gen"/>
-    <tags-item tags="np.top.f.pl.gen"/>
   </def-label>
   <def-label name="n.f.pl.ins">
     <tags-item tags="n.f.pl.ins"/>
-    <tags-item tags="np.ant.f.pl.ins"/>
-    <tags-item tags="np.top.f.pl.ins"/>
   </def-label>
   <def-label name="n.f.pl.loc">
     <tags-item tags="n.f.pl.loc"/>
-    <tags-item tags="np.ant.f.pl.loc"/>
-    <tags-item tags="np.top.f.pl.loc"/>
   </def-label>
   <def-label name="n.f.pl.nom">
     <tags-item tags="n.f.pl.nom"/>
-    <tags-item tags="np.ant.f.pl.nom"/>
-    <tags-item tags="np.top.f.pl.nom"/>
   </def-label>
   <def-label name="n.f.pl.voc">
     <tags-item tags="n.f.pl.voc"/>
-    <tags-item tags="np.ant.f.pl.voc"/>
-    <tags-item tags="np.top.f.pl.voc"/>
   </def-label>
   <def-label name="n.f.sg.abl">
     <tags-item tags="n.f.sg.abl"/>
-    <tags-item tags="np.ant.f.sg.abl"/>
-    <tags-item tags="np.top.f.sg.abl"/>
   </def-label>
   <def-label name="n.f.sg.acc">
     <tags-item tags="n.f.sg.acc"/>
-    <tags-item tags="np.ant.f.sg.acc"/>
-    <tags-item tags="np.top.f.sg.acc"/>
   </def-label>
   <def-label name="n.f.sg.dat">
     <tags-item tags="n.f.sg.dat"/>
-    <tags-item tags="np.ant.f.sg.dat"/>
-    <tags-item tags="np.top.f.sg.dat"/>
   </def-label>
   <def-label name="n.f.sg.gen">
     <tags-item tags="n.f.sg.gen"/>
-    <tags-item tags="np.ant.f.sg.gen"/>
-    <tags-item tags="np.top.f.sg.gen"/>
   </def-label>
   <def-label name="n.f.sg.ins">
     <tags-item tags="n.f.sg.ins"/>
-    <tags-item tags="np.ant.f.sg.ins"/>
-    <tags-item tags="np.top.f.sg.ins"/>
   </def-label>
   <def-label name="n.f.sg.loc">
     <tags-item tags="n.f.sg.loc"/>
-    <tags-item tags="np.ant.f.sg.loc"/>
-    <tags-item tags="np.top.f.sg.loc"/>
   </def-label>
   <def-label name="n.f.sg.nom">
     <tags-item tags="n.f.sg.nom"/>
-    <tags-item tags="np.ant.f.sg.nom"/>
-    <tags-item tags="np.top.f.sg.nom"/>
   </def-label>
   <def-label name="n.f.sg.voc">
     <tags-item tags="n.f.sg.voc"/>
-    <tags-item tags="np.ant.f.sg.voc"/>
-    <tags-item tags="np.top.f.sg.voc"/>
   </def-label>
   <def-label name="n.m.pl.abl">
     <tags-item tags="n.m.pl.abl"/>
-    <tags-item tags="np.ant.m.pl.abl"/>
-    <tags-item tags="np.top.m.pl.abl"/>
   </def-label>
   <def-label name="n.m.pl.acc">
     <tags-item tags="n.m.pl.acc"/>
-    <tags-item tags="np.ant.m.pl.acc"/>
-    <tags-item tags="np.top.m.pl.acc"/>
   </def-label>
   <def-label name="n.m.pl.dat">
     <tags-item tags="n.m.pl.dat"/>
-    <tags-item tags="np.ant.m.pl.dat"/>
-    <tags-item tags="np.top.m.pl.dat"/>
   </def-label>
   <def-label name="n.m.pl.gen">
     <tags-item tags="n.m.pl.gen"/>
-    <tags-item tags="np.ant.m.pl.gen"/>
-    <tags-item tags="np.top.m.pl.gen"/>
   </def-label>
   <def-label name="n.m.pl.ins">
     <tags-item tags="n.m.pl.ins"/>
-    <tags-item tags="np.ant.m.pl.ins"/>
-    <tags-item tags="np.top.m.pl.ins"/>
   </def-label>
   <def-label name="n.m.pl.loc">
     <tags-item tags="n.m.pl.loc"/>
-    <tags-item tags="np.ant.m.pl.loc"/>
-    <tags-item tags="np.top.m.pl.loc"/>
   </def-label>
   <def-label name="n.m.pl.nom">
     <tags-item tags="n.m.pl.nom"/>
-    <tags-item tags="np.ant.m.pl.nom"/>
-    <tags-item tags="np.top.m.pl.nom"/>
   </def-label>
   <def-label name="n.m.pl.voc">
     <tags-item tags="n.m.pl.voc"/>
-    <tags-item tags="np.ant.m.pl.voc"/>
-    <tags-item tags="np.top.m.pl.voc"/>
   </def-label>
   <def-label name="n.m.sg.abl">
     <tags-item tags="n.m.sg.abl"/>
-    <tags-item tags="np.ant.m.sg.abl"/>
-    <tags-item tags="np.top.m.sg.abl"/>
   </def-label>
   <def-label name="n.m.sg.acc">
     <tags-item tags="n.m.sg.acc"/>
-    <tags-item tags="np.ant.m.sg.acc"/>
-    <tags-item tags="np.top.m.sg.acc"/>
   </def-label>
   <def-label name="n.m.sg.dat">
     <tags-item tags="n.m.sg.dat"/>
-    <tags-item tags="np.ant.m.sg.dat"/>
-    <tags-item tags="np.top.m.sg.dat"/>
   </def-label>
   <def-label name="n.m.sg.gen">
     <tags-item tags="n.m.sg.gen"/>
-    <tags-item tags="np.ant.m.sg.gen"/>
-    <tags-item tags="np.top.m.sg.gen"/>
   </def-label>
   <def-label name="n.m.sg.ins">
     <tags-item tags="n.m.sg.ins"/>
-    <tags-item tags="np.ant.m.sg.ins"/>
-    <tags-item tags="np.top.m.sg.ins"/>
   </def-label>
   <def-label name="n.m.sg.loc">
     <tags-item tags="n.m.sg.loc"/>
-    <tags-item tags="np.ant.m.sg.loc"/>
-    <tags-item tags="np.top.m.sg.loc"/>
   </def-label>
   <def-label name="n.m.sg.nom">
     <tags-item tags="n.m.sg.nom"/>
-    <tags-item tags="np.ant.m.sg.nom"/>
-    <tags-item tags="np.top.m.sg.nom"/>
   </def-label>
   <def-label name="n.m.sg.voc">
     <tags-item tags="n.m.sg.voc"/>
-    <tags-item tags="np.ant.m.sg.voc"/>
-    <tags-item tags="np.top.m.sg.voc"/>
   </def-label>
-  <def-label name="NPMINDECL">
-    <tags-item tags="np.al.m.indecl"/>
-    <tags-item tags="np.ant.m.indecl"/>
+  <def-label name="np.acr.f.sg.indecl">
+    <tags-item tags="np.acr.f.sg.indecl"/>
+  </def-label>
+  <def-label name="np.acr.m.sg.indecl">
+    <tags-item tags="np.acr.m.sg.indecl"/>
+  </def-label>
+  <def-label name="np.al.f.pl.acc">
+    <tags-item tags="np.al.f.pl.acc"/>
+  </def-label>
+  <def-label name="np.al.f.pl.dat">
+    <tags-item tags="np.al.f.pl.dat"/>
+  </def-label>
+  <def-label name="np.al.f.pl.gen">
+    <tags-item tags="np.al.f.pl.gen"/>
+  </def-label>
+  <def-label name="np.al.f.pl.loc">
+    <tags-item tags="np.al.f.pl.loc"/>
+  </def-label>
+  <def-label name="np.al.f.pl.nom">
+    <tags-item tags="np.al.f.pl.nom"/>
+  </def-label>
+  <def-label name="np.al.f.pl.voc">
+    <tags-item tags="np.al.f.pl.voc"/>
+  </def-label>
+  <def-label name="np.al.f.sg.acc">
+    <tags-item tags="np.al.f.sg.acc"/>
+  </def-label>
+  <def-label name="np.al.f.sg.dat">
+    <tags-item tags="np.al.f.sg.dat"/>
+  </def-label>
+  <def-label name="np.al.f.sg.gen">
+    <tags-item tags="np.al.f.sg.gen"/>
+  </def-label>
+  <def-label name="np.al.f.sg.loc">
+    <tags-item tags="np.al.f.sg.loc"/>
+  </def-label>
+  <def-label name="np.al.f.sg.nom">
+    <tags-item tags="np.al.f.sg.nom"/>
+  </def-label>
+  <def-label name="np.al.f.sg.voc">
+    <tags-item tags="np.al.f.sg.voc"/>
+  </def-label>
+  <def-label name="np.al.m.sg.indecl">
+    <tags-item tags="np.al.m.sg.indecl"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.abl">
+    <tags-item tags="np.ant.f.pl.abl"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.acc">
+    <tags-item tags="np.ant.f.pl.acc"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.dat">
+    <tags-item tags="np.ant.f.pl.dat"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.gen">
+    <tags-item tags="np.ant.f.pl.gen"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.ins">
+    <tags-item tags="np.ant.f.pl.ins"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.loc">
+    <tags-item tags="np.ant.f.pl.loc"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.nom">
+    <tags-item tags="np.ant.f.pl.nom"/>
+  </def-label>
+  <def-label name="np.ant.f.pl.voc">
+    <tags-item tags="np.ant.f.pl.voc"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.abl">
+    <tags-item tags="np.ant.f.sg.abl"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.acc">
+    <tags-item tags="np.ant.f.sg.acc"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.dat">
+    <tags-item tags="np.ant.f.sg.dat"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.gen">
+    <tags-item tags="np.ant.f.sg.gen"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.ins">
+    <tags-item tags="np.ant.f.sg.ins"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.loc">
+    <tags-item tags="np.ant.f.sg.loc"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.nom">
+    <tags-item tags="np.ant.f.sg.nom"/>
+  </def-label>
+  <def-label name="np.ant.f.sg.voc">
+    <tags-item tags="np.ant.f.sg.voc"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.abl">
+    <tags-item tags="np.ant.m.pl.abl"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.acc">
+    <tags-item tags="np.ant.m.pl.acc"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.dat">
+    <tags-item tags="np.ant.m.pl.dat"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.gen">
+    <tags-item tags="np.ant.m.pl.gen"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.ins">
+    <tags-item tags="np.ant.m.pl.ins"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.loc">
+    <tags-item tags="np.ant.m.pl.loc"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.nom">
+    <tags-item tags="np.ant.m.pl.nom"/>
+  </def-label>
+  <def-label name="np.ant.m.pl.voc">
+    <tags-item tags="np.ant.m.pl.voc"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.abl">
+    <tags-item tags="np.ant.m.sg.abl"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.acc">
+    <tags-item tags="np.ant.m.sg.acc"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.dat">
+    <tags-item tags="np.ant.m.sg.dat"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.gen">
+    <tags-item tags="np.ant.m.sg.gen"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.indecl">
+    <tags-item tags="np.ant.m.sg.indecl"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.ins">
+    <tags-item tags="np.ant.m.sg.ins"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.loc">
+    <tags-item tags="np.ant.m.sg.loc"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.nom">
+    <tags-item tags="np.ant.m.sg.nom"/>
+  </def-label>
+  <def-label name="np.ant.m.sg.voc">
+    <tags-item tags="np.ant.m.sg.voc"/>
+  </def-label>
+  <def-label name="np.top.f.sg.abl">
+    <tags-item tags="np.top.f.sg.abl"/>
+  </def-label>
+  <def-label name="np.top.f.sg.acc">
+    <tags-item tags="np.top.f.sg.acc"/>
+  </def-label>
+  <def-label name="np.top.f.sg.dat">
+    <tags-item tags="np.top.f.sg.dat"/>
+  </def-label>
+  <def-label name="np.top.f.sg.gen">
+    <tags-item tags="np.top.f.sg.gen"/>
+  </def-label>
+  <def-label name="np.top.f.sg.indecl">
+    <tags-item tags="np.top.f.sg.indecl"/>
+  </def-label>
+  <def-label name="np.top.f.sg.ins">
+    <tags-item tags="np.top.f.sg.ins"/>
+  </def-label>
+  <def-label name="np.top.f.sg.loc">
+    <tags-item tags="np.top.f.sg.loc"/>
+  </def-label>
+  <def-label name="np.top.f.sg.nom">
+    <tags-item tags="np.top.f.sg.nom"/>
+  </def-label>
+  <def-label name="np.top.f.sg.voc">
+    <tags-item tags="np.top.f.sg.voc"/>
+  </def-label>
+  <def-label name="np.top.m.sg.acc">
+    <tags-item tags="np.top.m.sg.acc"/>
+  </def-label>
+  <def-label name="np.top.m.sg.dat">
+    <tags-item tags="np.top.m.sg.dat"/>
+  </def-label>
+  <def-label name="np.top.m.sg.gen">
+    <tags-item tags="np.top.m.sg.gen"/>
+  </def-label>
+  <def-label name="np.top.m.sg.indecl">
+    <tags-item tags="np.top.m.sg.indecl"/>
+  </def-label>
+  <def-label name="np.top.m.sg.loc">
+    <tags-item tags="np.top.m.sg.loc"/>
+  </def-label>
+  <def-label name="np.top.m.sg.nom">
+    <tags-item tags="np.top.m.sg.nom"/>
+  </def-label>
+  <def-label name="np.top.m.sg.voc">
+    <tags-item tags="np.top.m.sg.voc"/>
   </def-label>
   <def-label name="num.f.pl.acc" closed="true">
     <tags-item tags="num.f.pl.acc"/>
@@ -604,71 +1030,206 @@
   <def-label name="pr.acc" closed="true">
     <tags-item tags="pr.acc"/>
   </def-label>
-  <def-label name="pr.gen" closed="true">
-    <tags-item tags="pr.gen"/>
-  </def-label>
   <def-label name="preadv" closed="true">
     <tags-item tags="preadv"/>
   </def-label>
-  <def-label name="prn.emph.pl.f.acc" closed="true">
-    <tags-item tags="prn.emph.pl.f.acc"/>
+  <def-label name="pr.gen" closed="true">
+    <tags-item tags="pr.gen"/>
   </def-label>
-  <def-label name="prn.emph.pl.f.dat" closed="true">
-    <tags-item tags="prn.emph.pl.f.dat"/>
+  <def-label name="prn.def.f.pl.acc" closed="true">
+    <tags-item tags="prn.def.f.pl.acc"/>
   </def-label>
-  <def-label name="prn.emph.pl.f.gen" closed="true">
-    <tags-item tags="prn.emph.pl.f.gen"/>
+  <def-label name="prn.def.f.pl.dat" closed="true">
+    <tags-item tags="prn.def.f.pl.dat"/>
   </def-label>
-  <def-label name="prn.emph.pl.f.loc" closed="true">
-    <tags-item tags="prn.emph.pl.f.loc"/>
+  <def-label name="prn.def.f.pl.gen" closed="true">
+    <tags-item tags="prn.def.f.pl.gen"/>
   </def-label>
-  <def-label name="prn.emph.pl.f.nom" closed="true">
-    <tags-item tags="prn.emph.pl.f.nom"/>
+  <def-label name="prn.def.f.pl.loc" closed="true">
+    <tags-item tags="prn.def.f.pl.loc"/>
   </def-label>
-  <def-label name="prn.emph.pl.m.acc" closed="true">
-    <tags-item tags="prn.emph.pl.m.acc"/>
+  <def-label name="prn.def.f.pl.nom" closed="true">
+    <tags-item tags="prn.def.f.pl.nom"/>
   </def-label>
-  <def-label name="prn.emph.pl.m.dat" closed="true">
-    <tags-item tags="prn.emph.pl.m.dat"/>
+  <def-label name="prn.def.f.sg.acc" closed="true">
+    <tags-item tags="prn.def.f.sg.acc"/>
   </def-label>
-  <def-label name="prn.emph.pl.m.gen" closed="true">
-    <tags-item tags="prn.emph.pl.m.gen"/>
+  <def-label name="prn.def.f.sg.dat" closed="true">
+    <tags-item tags="prn.def.f.sg.dat"/>
   </def-label>
-  <def-label name="prn.emph.pl.m.loc" closed="true">
-    <tags-item tags="prn.emph.pl.m.loc"/>
+  <def-label name="prn.def.f.sg.gen" closed="true">
+    <tags-item tags="prn.def.f.sg.gen"/>
   </def-label>
-  <def-label name="prn.emph.pl.m.nom" closed="true">
-    <tags-item tags="prn.emph.pl.m.nom"/>
+  <def-label name="prn.def.f.sg.loc" closed="true">
+    <tags-item tags="prn.def.f.sg.loc"/>
   </def-label>
-  <def-label name="prn.emph.sg.f.acc" closed="true">
-    <tags-item tags="prn.emph.sg.f.acc"/>
+  <def-label name="prn.def.f.sg.nom" closed="true">
+    <tags-item tags="prn.def.f.sg.nom"/>
   </def-label>
-  <def-label name="prn.emph.sg.f.dat" closed="true">
-    <tags-item tags="prn.emph.sg.f.dat"/>
+  <def-label name="prn.def.m.pl.acc" closed="true">
+    <tags-item tags="prn.def.m.pl.acc"/>
   </def-label>
-  <def-label name="prn.emph.sg.f.gen" closed="true">
-    <tags-item tags="prn.emph.sg.f.gen"/>
+  <def-label name="prn.def.m.pl.dat" closed="true">
+    <tags-item tags="prn.def.m.pl.dat"/>
   </def-label>
-  <def-label name="prn.emph.sg.f.loc" closed="true">
-    <tags-item tags="prn.emph.sg.f.loc"/>
+  <def-label name="prn.def.m.pl.gen" closed="true">
+    <tags-item tags="prn.def.m.pl.gen"/>
   </def-label>
-  <def-label name="prn.emph.sg.f.nom" closed="true">
-    <tags-item tags="prn.emph.sg.f.nom"/>
+  <def-label name="prn.def.m.pl.loc" closed="true">
+    <tags-item tags="prn.def.m.pl.loc"/>
   </def-label>
-  <def-label name="prn.emph.sg.m.acc" closed="true">
-    <tags-item tags="prn.emph.sg.m.acc"/>
+  <def-label name="prn.def.m.pl.nom" closed="true">
+    <tags-item tags="prn.def.m.pl.nom"/>
   </def-label>
-  <def-label name="prn.emph.sg.m.dat" closed="true">
-    <tags-item tags="prn.emph.sg.m.dat"/>
+  <def-label name="prn.def.m.sg.acc" closed="true">
+    <tags-item tags="prn.def.m.sg.acc"/>
   </def-label>
-  <def-label name="prn.emph.sg.m.gen" closed="true">
-    <tags-item tags="prn.emph.sg.m.gen"/>
+  <def-label name="prn.def.m.sg.dat" closed="true">
+    <tags-item tags="prn.def.m.sg.dat"/>
   </def-label>
-  <def-label name="prn.emph.sg.m.loc" closed="true">
-    <tags-item tags="prn.emph.sg.m.loc"/>
+  <def-label name="prn.def.m.sg.gen" closed="true">
+    <tags-item tags="prn.def.m.sg.gen"/>
   </def-label>
-  <def-label name="prn.emph.sg.m.nom" closed="true">
-    <tags-item tags="prn.emph.sg.m.nom"/>
+  <def-label name="prn.def.m.sg.loc" closed="true">
+    <tags-item tags="prn.def.m.sg.loc"/>
+  </def-label>
+  <def-label name="prn.def.m.sg.nom" closed="true">
+    <tags-item tags="prn.def.m.sg.nom"/>
+  </def-label>
+  <def-label name="prn.emph.f.pl.acc" closed="true">
+    <tags-item tags="prn.emph.f.pl.acc"/>
+  </def-label>
+  <def-label name="prn.emph.f.pl.dat" closed="true">
+    <tags-item tags="prn.emph.f.pl.dat"/>
+  </def-label>
+  <def-label name="prn.emph.f.pl.gen" closed="true">
+    <tags-item tags="prn.emph.f.pl.gen"/>
+  </def-label>
+  <def-label name="prn.emph.f.pl.loc" closed="true">
+    <tags-item tags="prn.emph.f.pl.loc"/>
+  </def-label>
+  <def-label name="prn.emph.f.pl.nom" closed="true">
+    <tags-item tags="prn.emph.f.pl.nom"/>
+  </def-label>
+  <def-label name="prn.emph.f.sg.acc" closed="true">
+    <tags-item tags="prn.emph.f.sg.acc"/>
+  </def-label>
+  <def-label name="prn.emph.f.sg.dat" closed="true">
+    <tags-item tags="prn.emph.f.sg.dat"/>
+  </def-label>
+  <def-label name="prn.emph.f.sg.gen" closed="true">
+    <tags-item tags="prn.emph.f.sg.gen"/>
+  </def-label>
+  <def-label name="prn.emph.f.sg.loc" closed="true">
+    <tags-item tags="prn.emph.f.sg.loc"/>
+  </def-label>
+  <def-label name="prn.emph.f.sg.nom" closed="true">
+    <tags-item tags="prn.emph.f.sg.nom"/>
+  </def-label>
+  <def-label name="prn.emph.m.pl.acc" closed="true">
+    <tags-item tags="prn.emph.m.pl.acc"/>
+  </def-label>
+  <def-label name="prn.emph.m.pl.dat" closed="true">
+    <tags-item tags="prn.emph.m.pl.dat"/>
+  </def-label>
+  <def-label name="prn.emph.m.pl.gen" closed="true">
+    <tags-item tags="prn.emph.m.pl.gen"/>
+  </def-label>
+  <def-label name="prn.emph.m.pl.loc" closed="true">
+    <tags-item tags="prn.emph.m.pl.loc"/>
+  </def-label>
+  <def-label name="prn.emph.m.pl.nom" closed="true">
+    <tags-item tags="prn.emph.m.pl.nom"/>
+  </def-label>
+  <def-label name="prn.emph.m.sg.acc" closed="true">
+    <tags-item tags="prn.emph.m.sg.acc"/>
+  </def-label>
+  <def-label name="prn.emph.m.sg.dat" closed="true">
+    <tags-item tags="prn.emph.m.sg.dat"/>
+  </def-label>
+  <def-label name="prn.emph.m.sg.gen" closed="true">
+    <tags-item tags="prn.emph.m.sg.gen"/>
+  </def-label>
+  <def-label name="prn.emph.m.sg.loc" closed="true">
+    <tags-item tags="prn.emph.m.sg.loc"/>
+  </def-label>
+  <def-label name="prn.emph.m.sg.nom" closed="true">
+    <tags-item tags="prn.emph.m.sg.nom"/>
+  </def-label>
+  <def-label name="prn.ind.f.pl.acc" closed="true">
+    <tags-item tags="prn.ind.f.pl.acc"/>
+  </def-label>
+  <def-label name="prn.ind.f.pl.dat" closed="true">
+    <tags-item tags="prn.ind.f.pl.dat"/>
+  </def-label>
+  <def-label name="prn.ind.f.pl.gen" closed="true">
+    <tags-item tags="prn.ind.f.pl.gen"/>
+  </def-label>
+  <def-label name="prn.ind.f.pl.loc" closed="true">
+    <tags-item tags="prn.ind.f.pl.loc"/>
+  </def-label>
+  <def-label name="prn.ind.f.pl.nom" closed="true">
+    <tags-item tags="prn.ind.f.pl.nom"/>
+  </def-label>
+  <def-label name="prn.ind.f.sg.acc" closed="true">
+    <tags-item tags="prn.ind.f.sg.acc"/>
+  </def-label>
+  <def-label name="prn.ind.f.sg.dat" closed="true">
+    <tags-item tags="prn.ind.f.sg.dat"/>
+  </def-label>
+  <def-label name="prn.ind.f.sg.gen" closed="true">
+    <tags-item tags="prn.ind.f.sg.gen"/>
+  </def-label>
+  <def-label name="prn.ind.f.sg.loc" closed="true">
+    <tags-item tags="prn.ind.f.sg.loc"/>
+  </def-label>
+  <def-label name="prn.ind.f.sg.nom" closed="true">
+    <tags-item tags="prn.ind.f.sg.nom"/>
+  </def-label>
+  <def-label name="prn.ind.mf.sp.acc" closed="true">
+    <tags-item tags="prn.ind.mf.sp.acc"/>
+  </def-label>
+  <def-label name="prn.ind.mf.sp.dat" closed="true">
+    <tags-item tags="prn.ind.mf.sp.dat"/>
+  </def-label>
+  <def-label name="prn.ind.mf.sp.gen" closed="true">
+    <tags-item tags="prn.ind.mf.sp.gen"/>
+  </def-label>
+  <def-label name="prn.ind.mf.sp.loc" closed="true">
+    <tags-item tags="prn.ind.mf.sp.loc"/>
+  </def-label>
+  <def-label name="prn.ind.mf.sp.nom" closed="true">
+    <tags-item tags="prn.ind.mf.sp.nom"/>
+  </def-label>
+  <def-label name="prn.ind.m.pl.acc" closed="true">
+    <tags-item tags="prn.ind.m.pl.acc"/>
+  </def-label>
+  <def-label name="prn.ind.m.pl.dat" closed="true">
+    <tags-item tags="prn.ind.m.pl.dat"/>
+  </def-label>
+  <def-label name="prn.ind.m.pl.gen" closed="true">
+    <tags-item tags="prn.ind.m.pl.gen"/>
+  </def-label>
+  <def-label name="prn.ind.m.pl.loc" closed="true">
+    <tags-item tags="prn.ind.m.pl.loc"/>
+  </def-label>
+  <def-label name="prn.ind.m.pl.nom" closed="true">
+    <tags-item tags="prn.ind.m.pl.nom"/>
+  </def-label>
+  <def-label name="prn.ind.m.sg.acc" closed="true">
+    <tags-item tags="prn.ind.m.sg.acc"/>
+  </def-label>
+  <def-label name="prn.ind.m.sg.dat" closed="true">
+    <tags-item tags="prn.ind.m.sg.dat"/>
+  </def-label>
+  <def-label name="prn.ind.m.sg.gen" closed="true">
+    <tags-item tags="prn.ind.m.sg.gen"/>
+  </def-label>
+  <def-label name="prn.ind.m.sg.loc" closed="true">
+    <tags-item tags="prn.ind.m.sg.loc"/>
+  </def-label>
+  <def-label name="prn.ind.m.sg.nom" closed="true">
+    <tags-item tags="prn.ind.m.sg.nom"/>
   </def-label>
   <def-label name="prn.itg.f.pl.acc" closed="true">
     <tags-item tags="prn.itg.f.pl.acc"/>
@@ -699,6 +1260,21 @@
   </def-label>
   <def-label name="prn.itg.f.sg.nom" closed="true">
     <tags-item tags="prn.itg.f.sg.nom"/>
+  </def-label>
+  <def-label name="prn.itg.mf.sp.acc" closed="true">
+    <tags-item tags="prn.itg.mf.sp.acc"/>
+  </def-label>
+  <def-label name="prn.itg.mf.sp.dat" closed="true">
+    <tags-item tags="prn.itg.mf.sp.dat"/>
+  </def-label>
+  <def-label name="prn.itg.mf.sp.gen" closed="true">
+    <tags-item tags="prn.itg.mf.sp.gen"/>
+  </def-label>
+  <def-label name="prn.itg.mf.sp.loc" closed="true">
+    <tags-item tags="prn.itg.mf.sp.loc"/>
+  </def-label>
+  <def-label name="prn.itg.mf.sp.nom" closed="true">
+    <tags-item tags="prn.itg.mf.sp.nom"/>
   </def-label>
   <def-label name="prn.itg.m.pl.acc" closed="true">
     <tags-item tags="prn.itg.m.pl.acc"/>
@@ -760,6 +1336,21 @@
   <def-label name="prn.neg.f.sg.nom" closed="true">
     <tags-item tags="prn.neg.f.sg.nom"/>
   </def-label>
+  <def-label name="prn.neg.mf.sp.acc" closed="true">
+    <tags-item tags="prn.neg.mf.sp.acc"/>
+  </def-label>
+  <def-label name="prn.neg.mf.sp.dat" closed="true">
+    <tags-item tags="prn.neg.mf.sp.dat"/>
+  </def-label>
+  <def-label name="prn.neg.mf.sp.gen" closed="true">
+    <tags-item tags="prn.neg.mf.sp.gen"/>
+  </def-label>
+  <def-label name="prn.neg.mf.sp.loc" closed="true">
+    <tags-item tags="prn.neg.mf.sp.loc"/>
+  </def-label>
+  <def-label name="prn.neg.mf.sp.nom" closed="true">
+    <tags-item tags="prn.neg.mf.sp.nom"/>
+  </def-label>
   <def-label name="prn.neg.m.pl.acc" closed="true">
     <tags-item tags="prn.neg.m.pl.acc"/>
   </def-label>
@@ -790,95 +1381,245 @@
   <def-label name="prn.neg.m.sg.nom" closed="true">
     <tags-item tags="prn.neg.m.sg.nom"/>
   </def-label>
-  <def-label name="prn.p1.pl.mf.acc" closed="true">
-    <tags-item tags="prn.p1.pl.mf.acc"/>
+  <def-label name="prn.pers.p1.mf.pl.acc" closed="true">
+    <tags-item tags="prn.pers.p1.mf.pl.acc"/>
   </def-label>
-  <def-label name="prn.p1.pl.mf.dat" closed="true">
-    <tags-item tags="prn.p1.pl.mf.dat"/>
+  <def-label name="prn.pers.p1.mf.pl.dat" closed="true">
+    <tags-item tags="prn.pers.p1.mf.pl.dat"/>
   </def-label>
-  <def-label name="prn.p1.pl.mf.gen" closed="true">
-    <tags-item tags="prn.p1.pl.mf.gen"/>
+  <def-label name="prn.pers.p1.mf.pl.gen" closed="true">
+    <tags-item tags="prn.pers.p1.mf.pl.gen"/>
   </def-label>
-  <def-label name="prn.p1.pl.mf.loc" closed="true">
-    <tags-item tags="prn.p1.pl.mf.loc"/>
+  <def-label name="prn.pers.p1.mf.pl.loc" closed="true">
+    <tags-item tags="prn.pers.p1.mf.pl.loc"/>
   </def-label>
-  <def-label name="prn.p1.pl.mf.nom" closed="true">
-    <tags-item tags="prn.p1.pl.mf.nom"/>
+  <def-label name="prn.pers.p1.mf.pl.nom" closed="true">
+    <tags-item tags="prn.pers.p1.mf.pl.nom"/>
   </def-label>
-  <def-label name="prn.p1.sg.mf.acc" closed="true">
-    <tags-item tags="prn.p1.sg.mf.acc"/>
+  <def-label name="prn.pers.p1.mf.sg.acc" closed="true">
+    <tags-item tags="prn.pers.p1.mf.sg.acc"/>
   </def-label>
-  <def-label name="prn.p1.sg.mf.dat" closed="true">
-    <tags-item tags="prn.p1.sg.mf.dat"/>
+  <def-label name="prn.pers.p1.mf.sg.dat" closed="true">
+    <tags-item tags="prn.pers.p1.mf.sg.dat"/>
   </def-label>
-  <def-label name="prn.p1.sg.mf.gen" closed="true">
-    <tags-item tags="prn.p1.sg.mf.gen"/>
+  <def-label name="prn.pers.p1.mf.sg.gen" closed="true">
+    <tags-item tags="prn.pers.p1.mf.sg.gen"/>
   </def-label>
-  <def-label name="prn.p1.sg.mf.loc" closed="true">
-    <tags-item tags="prn.p1.sg.mf.loc"/>
+  <def-label name="prn.pers.p1.mf.sg.loc" closed="true">
+    <tags-item tags="prn.pers.p1.mf.sg.loc"/>
   </def-label>
-  <def-label name="prn.p1.sg.mf.nom" closed="true">
-    <tags-item tags="prn.p1.sg.mf.nom"/>
+  <def-label name="prn.pers.p1.mf.sg.nom" closed="true">
+    <tags-item tags="prn.pers.p1.mf.sg.nom"/>
   </def-label>
-  <def-label name="prn.p2.pl.mf.acc" closed="true">
-    <tags-item tags="prn.p2.pl.mf.acc"/>
+  <def-label name="prn.pers.p2.mf.pl.acc" closed="true">
+    <tags-item tags="prn.pers.p2.mf.pl.acc"/>
   </def-label>
-  <def-label name="prn.p2.pl.mf.dat" closed="true">
-    <tags-item tags="prn.p2.pl.mf.dat"/>
+  <def-label name="prn.pers.p2.mf.pl.dat" closed="true">
+    <tags-item tags="prn.pers.p2.mf.pl.dat"/>
   </def-label>
-  <def-label name="prn.p2.pl.mf.gen" closed="true">
-    <tags-item tags="prn.p2.pl.mf.gen"/>
+  <def-label name="prn.pers.p2.mf.pl.gen" closed="true">
+    <tags-item tags="prn.pers.p2.mf.pl.gen"/>
   </def-label>
-  <def-label name="prn.p2.pl.mf.loc" closed="true">
-    <tags-item tags="prn.p2.pl.mf.loc"/>
+  <def-label name="prn.pers.p2.mf.pl.loc" closed="true">
+    <tags-item tags="prn.pers.p2.mf.pl.loc"/>
   </def-label>
-  <def-label name="prn.p2.pl.mf.nom" closed="true">
-    <tags-item tags="prn.p2.pl.mf.nom"/>
+  <def-label name="prn.pers.p2.mf.pl.nom" closed="true">
+    <tags-item tags="prn.pers.p2.mf.pl.nom"/>
   </def-label>
-  <def-label name="prn.p2.sg.mf.acc" closed="true">
-    <tags-item tags="prn.p2.sg.mf.acc"/>
+  <def-label name="prn.pers.p2.mf.sg.acc" closed="true">
+    <tags-item tags="prn.pers.p2.mf.sg.acc"/>
   </def-label>
-  <def-label name="prn.p2.sg.mf.dat" closed="true">
-    <tags-item tags="prn.p2.sg.mf.dat"/>
+  <def-label name="prn.pers.p2.mf.sg.dat" closed="true">
+    <tags-item tags="prn.pers.p2.mf.sg.dat"/>
   </def-label>
-  <def-label name="prn.p2.sg.mf.gen" closed="true">
-    <tags-item tags="prn.p2.sg.mf.gen"/>
+  <def-label name="prn.pers.p2.mf.sg.gen" closed="true">
+    <tags-item tags="prn.pers.p2.mf.sg.gen"/>
   </def-label>
-  <def-label name="prn.p2.sg.mf.loc" closed="true">
-    <tags-item tags="prn.p2.sg.mf.loc"/>
+  <def-label name="prn.pers.p2.mf.sg.loc" closed="true">
+    <tags-item tags="prn.pers.p2.mf.sg.loc"/>
   </def-label>
-  <def-label name="prn.p2.sg.mf.nom" closed="true">
-    <tags-item tags="prn.p2.sg.mf.nom"/>
+  <def-label name="prn.pers.p2.mf.sg.nom" closed="true">
+    <tags-item tags="prn.pers.p2.mf.sg.nom"/>
   </def-label>
-  <def-label name="prn.p3.pl.m.acc" closed="true">
-    <tags-item tags="prn.p3.pl.m.acc"/>
+  <def-label name="prn.pers.p3.f.pl.acc" closed="true">
+    <tags-item tags="prn.pers.p3.f.pl.acc"/>
   </def-label>
-  <def-label name="prn.p3.pl.m.dat" closed="true">
-    <tags-item tags="prn.p3.pl.m.dat"/>
+  <def-label name="prn.pers.p3.f.pl.dat" closed="true">
+    <tags-item tags="prn.pers.p3.f.pl.dat"/>
   </def-label>
-  <def-label name="prn.p3.pl.m.gen" closed="true">
-    <tags-item tags="prn.p3.pl.m.gen"/>
+  <def-label name="prn.pers.p3.f.pl.gen" closed="true">
+    <tags-item tags="prn.pers.p3.f.pl.gen"/>
   </def-label>
-  <def-label name="prn.p3.pl.m.loc" closed="true">
-    <tags-item tags="prn.p3.pl.m.loc"/>
+  <def-label name="prn.pers.p3.f.pl.loc" closed="true">
+    <tags-item tags="prn.pers.p3.f.pl.loc"/>
   </def-label>
-  <def-label name="prn.p3.pl.m.nom" closed="true">
-    <tags-item tags="prn.p3.pl.m.nom"/>
+  <def-label name="prn.pers.p3.f.pl.nom" closed="true">
+    <tags-item tags="prn.pers.p3.f.pl.nom"/>
   </def-label>
-  <def-label name="prn.p3.sg.m.acc" closed="true">
-    <tags-item tags="prn.p3.sg.m.acc"/>
+  <def-label name="prn.pers.p3.f.sg.acc" closed="true">
+    <tags-item tags="prn.pers.p3.f.sg.acc"/>
   </def-label>
-  <def-label name="prn.p3.sg.m.dat" closed="true">
-    <tags-item tags="prn.p3.sg.m.dat"/>
+  <def-label name="prn.pers.p3.f.sg.dat" closed="true">
+    <tags-item tags="prn.pers.p3.f.sg.dat"/>
   </def-label>
-  <def-label name="prn.p3.sg.m.gen" closed="true">
-    <tags-item tags="prn.p3.sg.m.gen"/>
+  <def-label name="prn.pers.p3.f.sg.gen" closed="true">
+    <tags-item tags="prn.pers.p3.f.sg.gen"/>
   </def-label>
-  <def-label name="prn.p3.sg.m.loc" closed="true">
-    <tags-item tags="prn.p3.sg.m.loc"/>
+  <def-label name="prn.pers.p3.f.sg.loc" closed="true">
+    <tags-item tags="prn.pers.p3.f.sg.loc"/>
   </def-label>
-  <def-label name="prn.p3.sg.m.nom" closed="true">
-    <tags-item tags="prn.p3.sg.m.nom"/>
+  <def-label name="prn.pers.p3.f.sg.nom" closed="true">
+    <tags-item tags="prn.pers.p3.f.sg.nom"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.pl.acc" closed="true">
+    <tags-item tags="prn.pers.p3.m.pl.acc"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.pl.dat" closed="true">
+    <tags-item tags="prn.pers.p3.m.pl.dat"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.pl.gen" closed="true">
+    <tags-item tags="prn.pers.p3.m.pl.gen"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.pl.loc" closed="true">
+    <tags-item tags="prn.pers.p3.m.pl.loc"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.pl.nom" closed="true">
+    <tags-item tags="prn.pers.p3.m.pl.nom"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.sg.acc" closed="true">
+    <tags-item tags="prn.pers.p3.m.sg.acc"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.sg.dat" closed="true">
+    <tags-item tags="prn.pers.p3.m.sg.dat"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.sg.gen" closed="true">
+    <tags-item tags="prn.pers.p3.m.sg.gen"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.sg.loc" closed="true">
+    <tags-item tags="prn.pers.p3.m.sg.loc"/>
+  </def-label>
+  <def-label name="prn.pers.p3.m.sg.nom" closed="true">
+    <tags-item tags="prn.pers.p3.m.sg.nom"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.acc.def" closed="true">
+    <tags-item tags="prn.pos.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.acc.ind" closed="true">
+    <tags-item tags="prn.pos.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.dat.def" closed="true">
+    <tags-item tags="prn.pos.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.dat.ind" closed="true">
+    <tags-item tags="prn.pos.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.gen.def" closed="true">
+    <tags-item tags="prn.pos.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.gen.ind" closed="true">
+    <tags-item tags="prn.pos.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.loc.def" closed="true">
+    <tags-item tags="prn.pos.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.loc.ind" closed="true">
+    <tags-item tags="prn.pos.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.nom.def" closed="true">
+    <tags-item tags="prn.pos.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.pl.nom.ind" closed="true">
+    <tags-item tags="prn.pos.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.acc.def" closed="true">
+    <tags-item tags="prn.pos.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.acc.ind" closed="true">
+    <tags-item tags="prn.pos.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.dat.def" closed="true">
+    <tags-item tags="prn.pos.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.dat.ind" closed="true">
+    <tags-item tags="prn.pos.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.gen.def" closed="true">
+    <tags-item tags="prn.pos.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.gen.ind" closed="true">
+    <tags-item tags="prn.pos.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.loc.def" closed="true">
+    <tags-item tags="prn.pos.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.loc.ind" closed="true">
+    <tags-item tags="prn.pos.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.nom.def" closed="true">
+    <tags-item tags="prn.pos.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="prn.pos.f.sg.nom.ind" closed="true">
+    <tags-item tags="prn.pos.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.acc.def" closed="true">
+    <tags-item tags="prn.pos.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.acc.ind" closed="true">
+    <tags-item tags="prn.pos.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.dat.def" closed="true">
+    <tags-item tags="prn.pos.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.dat.ind" closed="true">
+    <tags-item tags="prn.pos.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.gen.def" closed="true">
+    <tags-item tags="prn.pos.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.gen.ind" closed="true">
+    <tags-item tags="prn.pos.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.loc.def" closed="true">
+    <tags-item tags="prn.pos.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.loc.ind" closed="true">
+    <tags-item tags="prn.pos.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.nom.def" closed="true">
+    <tags-item tags="prn.pos.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.pl.nom.ind" closed="true">
+    <tags-item tags="prn.pos.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.acc.def" closed="true">
+    <tags-item tags="prn.pos.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.acc.ind" closed="true">
+    <tags-item tags="prn.pos.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.dat.def" closed="true">
+    <tags-item tags="prn.pos.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.dat.ind" closed="true">
+    <tags-item tags="prn.pos.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.gen.def" closed="true">
+    <tags-item tags="prn.pos.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.gen.ind" closed="true">
+    <tags-item tags="prn.pos.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.loc.def" closed="true">
+    <tags-item tags="prn.pos.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.loc.ind" closed="true">
+    <tags-item tags="prn.pos.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.nom.def" closed="true">
+    <tags-item tags="prn.pos.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="prn.pos.m.sg.nom.ind" closed="true">
+    <tags-item tags="prn.pos.m.sg.nom.ind"/>
   </def-label>
   <def-label name="prn.ref.sp.mf.acc" closed="true">
     <tags-item tags="prn.ref.sp.mf.acc"/>
@@ -892,329 +1633,1970 @@
   <def-label name="prn.ref.sp.mf.loc" closed="true">
     <tags-item tags="prn.ref.sp.mf.loc"/>
   </def-label>
-  <def-label name="sent" closed="true">
-    <tags-item tags="sent"/>
-  </def-label>
-  <def-label name="vblex.fut.p1.pl" closed="true">
+  <def-label name="vblex.fut.p1.pl">
     <tags-item tags="vblex.fut.p1.pl"/>
   </def-label>
-  <def-label name="vblex.fut.p1.sg" closed="true">
+  <def-label name="vblex.fut.p1.sg">
     <tags-item tags="vblex.fut.p1.sg"/>
   </def-label>
-  <def-label name="vblex.fut.p2.pl" closed="true">
+  <def-label name="vblex.fut.p2.pl">
     <tags-item tags="vblex.fut.p2.pl"/>
   </def-label>
-  <def-label name="vblex.fut.p2.sg" closed="true">
+  <def-label name="vblex.fut.p2.sg">
     <tags-item tags="vblex.fut.p2.sg"/>
   </def-label>
-  <def-label name="vblex.fut.p3.sp" closed="true">
+  <def-label name="vblex.fut.p3.sp">
     <tags-item tags="vblex.fut.p3.sp"/>
   </def-label>
-  <def-label name="vblex.imp.p1.pl" closed="true">
-    <tags-item tags="vblex.imp.p1.pl"/>
-  </def-label>
-  <def-label name="vblex.imp.p2.pl" closed="true">
-    <tags-item tags="vblex.imp.p2.pl"/>
-  </def-label>
-  <def-label name="vblex.imp.p2.sg" closed="true">
-    <tags-item tags="vblex.imp.p2.sg"/>
-  </def-label>
-  <def-label name="vblex.inf" closed="true">
+  <def-label name="vblex.inf">
     <tags-item tags="vblex.inf"/>
   </def-label>
-  <def-label name="vblex.past.p1.pl" closed="true">
+  <def-label name="vblex.iv.deb">
+    <tags-item tags="vblex.iv.deb"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p1.pl">
+    <tags-item tags="vblex.iv.fut.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p1.sg">
+    <tags-item tags="vblex.iv.fut.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p2.pl">
+    <tags-item tags="vblex.iv.fut.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p2.sg">
+    <tags-item tags="vblex.iv.fut.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p3.pl">
+    <tags-item tags="vblex.iv.fut.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p3.sg">
+    <tags-item tags="vblex.iv.fut.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.fut.p3.sp">
+    <tags-item tags="vblex.iv.fut.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.iv.imp.p2.pl">
+    <tags-item tags="vblex.iv.imp.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.imp.p2.sg">
+    <tags-item tags="vblex.iv.imp.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.inf">
+    <tags-item tags="vblex.iv.inf"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p1.pl">
+    <tags-item tags="vblex.iv.past.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p1.sg">
+    <tags-item tags="vblex.iv.past.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p2.pl">
+    <tags-item tags="vblex.iv.past.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p2.sg">
+    <tags-item tags="vblex.iv.past.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p3.pl">
+    <tags-item tags="vblex.iv.past.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p3.sg">
+    <tags-item tags="vblex.iv.past.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.past.p3.sp">
+    <tags-item tags="vblex.iv.past.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.acc.def">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.acc.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.dat.def">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.dat.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.gen.def">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.gen.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.loc.def">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.loc.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.nom.def">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.nom.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.pl.voc.def">
+    <tags-item tags="vblex.iv.pp.actv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.acc.def">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.acc.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.dat.def">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.dat.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.gen.def">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.gen.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.loc.def">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.loc.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.nom.def">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.nom.ind">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.f.sg.voc.def">
+    <tags-item tags="vblex.iv.pp.actv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.acc.def">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.acc.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.dat.def">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.dat.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.gen.def">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.gen.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.loc.def">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.loc.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.nom.def">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.nom.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.pl.voc.def">
+    <tags-item tags="vblex.iv.pp.actv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.acc.def">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.acc.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.dat.def">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.dat.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.gen.def.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.gen.def.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.gen.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.loc.def">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.loc.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.nom.def">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.nom.ind">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.actv.m.sg.voc.def">
+    <tags-item tags="vblex.iv.pp.actv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.acc.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.acc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.dat.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.dat.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.gen.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.gen.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.loc.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.loc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.nom.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.nom.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.pl.voc.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.acc.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.acc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.dat.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.dat.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.gen.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.gen.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.loc.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.loc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.nom.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.nom.ind">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.f.sg.voc.def">
+    <tags-item tags="vblex.iv.pp.pasv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.acc.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.acc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.dat.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.dat.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.gen.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.gen.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.loc.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.loc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.nom.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.nom.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.pl.voc.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.acc.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.acc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.dat.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.dat.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.gen.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.gen.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.loc.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.loc.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.nom.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.nom.ind">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pp.pasv.m.sg.voc.def">
+    <tags-item tags="vblex.iv.pp.pasv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.adv">
+    <tags-item tags="vblex.iv.pprs.actv.adv"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.acc.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.acc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.dat.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.dat.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.gen.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.gen.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.loc.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.loc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.nom.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.nom.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.pl.voc.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.acc.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.acc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.dat.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.dat.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.gen.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.gen.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.loc.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.loc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.nom.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.nom.ind">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.f.sg.voc.def">
+    <tags-item tags="vblex.iv.pprs.actv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.acc.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.acc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.dat.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.dat.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.gen.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.gen.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.loc.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.loc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.nom.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.nom.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.pl.voc.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.acc.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.acc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.dat.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.dat.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.gen.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.gen.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.loc.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.loc.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.nom.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.nom.ind">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.m.sg.voc.def">
+    <tags-item tags="vblex.iv.pprs.actv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.rel.f.pl.nom">
+    <tags-item tags="vblex.iv.pprs.actv.rel.f.pl.nom"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.rel.f.sg.nom">
+    <tags-item tags="vblex.iv.pprs.actv.rel.f.sg.nom"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.rel.m.pl.nom">
+    <tags-item tags="vblex.iv.pprs.actv.rel.m.pl.nom"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.actv.rel.m.sg.nom">
+    <tags-item tags="vblex.iv.pprs.actv.rel.m.sg.nom"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.ind">
+    <tags-item tags="vblex.iv.pprs.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.acc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.acc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.dat.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.dat.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.gen.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.gen.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.loc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.loc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.nom.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.nom.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.pl.voc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.acc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.acc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.dat.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.dat.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.gen.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.gen.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.loc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.loc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.nom.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.nom.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.f.sg.voc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.acc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.acc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.dat.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.dat.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.gen.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.gen.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.loc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.loc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.nom.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.nom.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.pl.voc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.acc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.acc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.dat.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.dat.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.gen.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.gen.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.loc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.loc.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.nom.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.nom.ind">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.iv.pprs.pasv.m.sg.voc.def">
+    <tags-item tags="vblex.iv.pprs.pasv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p1.pl">
+    <tags-item tags="vblex.iv.pres.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p1.sg">
+    <tags-item tags="vblex.iv.pres.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p2.pl">
+    <tags-item tags="vblex.iv.pres.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p2.sg">
+    <tags-item tags="vblex.iv.pres.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p3.pl">
+    <tags-item tags="vblex.iv.pres.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p3.sg">
+    <tags-item tags="vblex.iv.pres.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.iv.pres.p3.sp">
+    <tags-item tags="vblex.iv.pres.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.iv.prs">
+    <tags-item tags="vblex.iv.prs"/>
+  </def-label>
+  <def-label name="vblex.past.p1.pl">
     <tags-item tags="vblex.past.p1.pl"/>
   </def-label>
-  <def-label name="vblex.past.p1.sg" closed="true">
+  <def-label name="vblex.past.p1.sg">
     <tags-item tags="vblex.past.p1.sg"/>
   </def-label>
-  <def-label name="vblex.past.p2.pl" closed="true">
+  <def-label name="vblex.past.p2.pl">
     <tags-item tags="vblex.past.p2.pl"/>
   </def-label>
-  <def-label name="vblex.past.p2.sg" closed="true">
+  <def-label name="vblex.past.p2.sg">
     <tags-item tags="vblex.past.p2.sg"/>
   </def-label>
-  <def-label name="vblex.past.p3.sp" closed="true">
+  <def-label name="vblex.past.p3.sp">
     <tags-item tags="vblex.past.p3.sp"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.pl.acc"/>
+  <def-label name="vblex.pres.p1.pl">
+    <tags-item tags="vblex.pres.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.pl.dat"/>
+  <def-label name="vblex.pres.p1.sg">
+    <tags-item tags="vblex.pres.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.pl.gen"/>
+  <def-label name="vblex.pres.p2.pl">
+    <tags-item tags="vblex.pres.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.pl.loc"/>
+  <def-label name="vblex.pres.p2.sg">
+    <tags-item tags="vblex.pres.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.pl.nom"/>
+  <def-label name="vblex.pres.p3.sp">
+    <tags-item tags="vblex.pres.p3.sp"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.pl.voc" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.pl.voc"/>
+  <def-label name="vblex.ref.deb">
+    <tags-item tags="vblex.ref.deb"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.sg.acc"/>
+  <def-label name="vblex.ref.fut.p1.pl">
+    <tags-item tags="vblex.ref.fut.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.sg.dat"/>
+  <def-label name="vblex.ref.fut.p1.sg">
+    <tags-item tags="vblex.ref.fut.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.sg.gen"/>
+  <def-label name="vblex.ref.fut.p2.pl">
+    <tags-item tags="vblex.ref.fut.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.sg.loc"/>
+  <def-label name="vblex.ref.fut.p2.sg">
+    <tags-item tags="vblex.ref.fut.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.sg.nom"/>
+  <def-label name="vblex.ref.fut.p3.pl">
+    <tags-item tags="vblex.ref.fut.p3.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.f.sg.voc" closed="true">
-    <tags-item tags="vblex.pp.act.def.f.sg.voc"/>
+  <def-label name="vblex.ref.fut.p3.sg">
+    <tags-item tags="vblex.ref.fut.p3.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.pl.acc"/>
+  <def-label name="vblex.ref.imp.p2.pl">
+    <tags-item tags="vblex.ref.imp.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.pl.dat"/>
+  <def-label name="vblex.ref.imp.p2.sg">
+    <tags-item tags="vblex.ref.imp.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.pl.gen"/>
+  <def-label name="vblex.ref.inf">
+    <tags-item tags="vblex.ref.inf"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.pl.loc"/>
+  <def-label name="vblex.ref.past.p1.pl">
+    <tags-item tags="vblex.ref.past.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.pl.nom"/>
+  <def-label name="vblex.ref.past.p1.sg">
+    <tags-item tags="vblex.ref.past.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.pl.voc" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.pl.voc"/>
+  <def-label name="vblex.ref.past.p2.pl">
+    <tags-item tags="vblex.ref.past.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.sg.acc"/>
+  <def-label name="vblex.ref.past.p2.sg">
+    <tags-item tags="vblex.ref.past.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.sg.dat"/>
+  <def-label name="vblex.ref.past.p3.pl">
+    <tags-item tags="vblex.ref.past.p3.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.sg.gen"/>
+  <def-label name="vblex.ref.past.p3.sg">
+    <tags-item tags="vblex.ref.past.p3.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.sg.loc"/>
+  <def-label name="vblex.ref.pres.p1.pl">
+    <tags-item tags="vblex.ref.pres.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.sg.nom"/>
+  <def-label name="vblex.ref.pres.p1.sg">
+    <tags-item tags="vblex.ref.pres.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.def.m.sg.voc" closed="true">
-    <tags-item tags="vblex.pp.act.def.m.sg.voc"/>
+  <def-label name="vblex.ref.pres.p2.pl">
+    <tags-item tags="vblex.ref.pres.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.act.f.pl.acc"/>
+  <def-label name="vblex.ref.pres.p2.sg">
+    <tags-item tags="vblex.ref.pres.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.act.f.pl.dat"/>
+  <def-label name="vblex.ref.pres.p3.pl">
+    <tags-item tags="vblex.ref.pres.p3.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.act.f.pl.gen"/>
+  <def-label name="vblex.ref.pres.p3.sg">
+    <tags-item tags="vblex.ref.pres.p3.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.act.f.pl.loc"/>
+  <def-label name="vblex.TD.fut.p1.pl">
+    <tags-item tags="vblex.TD.fut.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.act.f.pl.nom"/>
+  <def-label name="vblex.TD.fut.p1.sg">
+    <tags-item tags="vblex.TD.fut.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.act.f.sg.acc"/>
+  <def-label name="vblex.TD.fut.p2.pl">
+    <tags-item tags="vblex.TD.fut.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.act.f.sg.dat"/>
+  <def-label name="vblex.TD.fut.p2.sg">
+    <tags-item tags="vblex.TD.fut.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.act.f.sg.gen"/>
+  <def-label name="vblex.TD.fut.p3.sp">
+    <tags-item tags="vblex.TD.fut.p3.sp"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.act.f.sg.loc"/>
+  <def-label name="vblex.TD.imp.p2.pl">
+    <tags-item tags="vblex.TD.imp.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.f.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.act.f.sg.nom"/>
+  <def-label name="vblex.TD.imp.p2.sg">
+    <tags-item tags="vblex.TD.imp.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.act.m.pl.acc"/>
+  <def-label name="vblex.TD.inf">
+    <tags-item tags="vblex.TD.inf"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.act.m.pl.dat"/>
+  <def-label name="vblex.TD.past.p1.pl">
+    <tags-item tags="vblex.TD.past.p1.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.act.m.pl.gen"/>
+  <def-label name="vblex.TD.past.p1.sg">
+    <tags-item tags="vblex.TD.past.p1.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.act.m.pl.loc"/>
+  <def-label name="vblex.TD.past.p2.pl">
+    <tags-item tags="vblex.TD.past.p2.pl"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.act.m.pl.nom"/>
+  <def-label name="vblex.TD.past.p2.sg">
+    <tags-item tags="vblex.TD.past.p2.sg"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.act.m.sg.acc"/>
+  <def-label name="vblex.TD.past.p3.sp">
+    <tags-item tags="vblex.TD.past.p3.sp"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.act.m.sg.dat"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.acc.def">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.acc.def"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.act.m.sg.gen"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.acc.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.acc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.act.m.sg.loc"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.dat.def">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.dat.def"/>
   </def-label>
-  <def-label name="vblex.pp.act.m.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.act.m.sg.nom"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.dat.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.dat.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.pl.acc"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.gen.def">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.gen.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.pl.dat"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.gen.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.gen.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.pl.gen"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.loc.def">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.loc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.pl.loc"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.loc.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.loc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.pl.nom"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.nom.def">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.nom.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.pl.voc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.pl.voc"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.nom.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.nom.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.sg.acc"/>
+  <def-label name="vblex.TD.pp.actv.f.pl.voc.def">
+    <tags-item tags="vblex.TD.pp.actv.f.pl.voc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.sg.dat"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.acc.def">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.acc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.sg.gen"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.acc.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.acc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.sg.loc"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.dat.def">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.dat.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.sg.nom"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.dat.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.dat.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.f.sg.voc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.f.sg.voc"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.gen.def">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.gen.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.pl.acc"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.gen.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.gen.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.pl.dat"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.loc.def">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.loc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.pl.gen"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.loc.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.loc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.pl.loc"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.nom.def">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.nom.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.pl.nom"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.nom.ind">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.nom.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.pl.voc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.pl.voc"/>
+  <def-label name="vblex.TD.pp.actv.f.sg.voc.def">
+    <tags-item tags="vblex.TD.pp.actv.f.sg.voc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.sg.acc"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.acc.def">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.acc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.sg.dat"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.acc.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.acc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.sg.gen"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.dat.def">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.dat.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.sg.loc"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.dat.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.dat.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.sg.nom"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.gen.def">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.gen.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.def.m.sg.voc" closed="true">
-    <tags-item tags="vblex.pp.psv.def.m.sg.voc"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.gen.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.gen.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.f.pl.acc"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.loc.def">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.loc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.f.pl.dat"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.loc.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.loc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.f.pl.gen"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.nom.def">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.nom.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.f.pl.loc"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.nom.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.nom.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.f.pl.nom"/>
+  <def-label name="vblex.TD.pp.actv.m.pl.voc.def">
+    <tags-item tags="vblex.TD.pp.actv.m.pl.voc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.f.sg.acc"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.acc.def">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.acc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.f.sg.dat"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.acc.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.acc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.f.sg.gen"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.dat.def">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.dat.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.f.sg.loc"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.dat.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.dat.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.f.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.f.sg.nom"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.gen.def.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.gen.def.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.pl.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.m.pl.acc"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.gen.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.gen.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.pl.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.m.pl.dat"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.loc.def">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.loc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.pl.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.m.pl.gen"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.loc.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.loc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.pl.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.m.pl.loc"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.nom.def">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.nom.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.pl.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.m.pl.nom"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.nom.ind">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.nom.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.sg.acc" closed="true">
-    <tags-item tags="vblex.pp.psv.m.sg.acc"/>
+  <def-label name="vblex.TD.pp.actv.m.sg.voc.def">
+    <tags-item tags="vblex.TD.pp.actv.m.sg.voc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.sg.dat" closed="true">
-    <tags-item tags="vblex.pp.psv.m.sg.dat"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.acc.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.acc.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.sg.gen" closed="true">
-    <tags-item tags="vblex.pp.psv.m.sg.gen"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.acc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.acc.ind"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.sg.loc" closed="true">
-    <tags-item tags="vblex.pp.psv.m.sg.loc"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.dat.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.dat.def"/>
   </def-label>
-  <def-label name="vblex.pp.psv.m.sg.nom" closed="true">
-    <tags-item tags="vblex.pp.psv.m.sg.nom"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.dat.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.dat.ind"/>
   </def-label>
-  <def-label name="vblex.pri.p1.pl" closed="true">
-    <tags-item tags="vblex.pri.p1.pl"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.gen.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.gen.def"/>
   </def-label>
-  <def-label name="vblex.pri.p1.sg" closed="true">
-    <tags-item tags="vblex.pri.p1.sg"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.gen.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.gen.ind"/>
   </def-label>
-  <def-label name="vblex.pri.p2.pl" closed="true">
-    <tags-item tags="vblex.pri.p2.pl"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.loc.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.loc.def"/>
   </def-label>
-  <def-label name="vblex.pri.p2.sg" closed="true">
-    <tags-item tags="vblex.pri.p2.sg"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.loc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.loc.ind"/>
   </def-label>
-  <def-label name="vblex.pri.p3.sp" closed="true">
-    <tags-item tags="vblex.pri.p3.sp"/>
+  <def-label name="vblex.TD.pp.pasv.f.pl.nom.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.pl.nom.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.pl.voc.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.acc.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.acc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.dat.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.dat.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.gen.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.gen.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.loc.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.loc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.nom.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.nom.ind">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.f.sg.voc.def">
+    <tags-item tags="vblex.TD.pp.pasv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.acc.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.acc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.dat.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.dat.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.gen.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.gen.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.loc.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.loc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.nom.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.nom.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.pl.voc.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.acc.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.acc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.dat.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.dat.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.gen.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.gen.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.loc.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.loc.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.nom.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.nom.ind">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pp.pasv.m.sg.voc.def">
+    <tags-item tags="vblex.TD.pp.pasv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.adv">
+    <tags-item tags="vblex.TD.pprs.actv.adv"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.acc.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.acc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.dat.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.dat.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.gen.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.gen.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.loc.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.loc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.nom.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.nom.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.pl.voc.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.acc.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.acc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.dat.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.dat.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.gen.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.gen.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.loc.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.loc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.nom.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.nom.ind">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.f.sg.voc.def">
+    <tags-item tags="vblex.TD.pprs.actv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.acc.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.acc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.dat.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.dat.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.gen.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.gen.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.loc.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.loc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.nom.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.nom.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.pl.voc.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.acc.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.acc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.dat.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.dat.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.gen.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.gen.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.loc.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.loc.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.nom.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.nom.ind">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.m.sg.voc.def">
+    <tags-item tags="vblex.TD.pprs.actv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.rel.f.pl.nom">
+    <tags-item tags="vblex.TD.pprs.actv.rel.f.pl.nom"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.rel.f.sg.nom">
+    <tags-item tags="vblex.TD.pprs.actv.rel.f.sg.nom"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.rel.m.pl.nom">
+    <tags-item tags="vblex.TD.pprs.actv.rel.m.pl.nom"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.actv.rel.m.sg.nom">
+    <tags-item tags="vblex.TD.pprs.actv.rel.m.sg.nom"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.ind">
+    <tags-item tags="vblex.TD.pprs.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.acc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.acc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.dat.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.dat.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.gen.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.gen.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.loc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.loc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.nom.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.nom.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.pl.voc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.acc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.acc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.dat.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.dat.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.gen.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.gen.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.loc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.loc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.nom.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.nom.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.f.sg.voc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.acc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.acc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.dat.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.dat.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.gen.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.gen.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.loc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.loc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.nom.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.nom.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.pl.voc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.acc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.acc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.dat.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.dat.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.gen.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.gen.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.loc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.loc.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.nom.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.nom.ind">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.TD.pprs.pasv.m.sg.voc.def">
+    <tags-item tags="vblex.TD.pprs.pasv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.TD.pres.p1.pl">
+    <tags-item tags="vblex.TD.pres.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.TD.pres.p1.sg">
+    <tags-item tags="vblex.TD.pres.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.TD.pres.p2.pl">
+    <tags-item tags="vblex.TD.pres.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.TD.pres.p2.sg">
+    <tags-item tags="vblex.TD.pres.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.TD.pres.p3.sp">
+    <tags-item tags="vblex.TD.pres.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.TD.prs">
+    <tags-item tags="vblex.TD.prs"/>
+  </def-label>
+  <def-label name="vblex.tv.deb">
+    <tags-item tags="vblex.tv.deb"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p1.pl">
+    <tags-item tags="vblex.tv.fut.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p1.sg">
+    <tags-item tags="vblex.tv.fut.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p2.pl">
+    <tags-item tags="vblex.tv.fut.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p2.sg">
+    <tags-item tags="vblex.tv.fut.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p3.pl">
+    <tags-item tags="vblex.tv.fut.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p3.sg">
+    <tags-item tags="vblex.tv.fut.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.fut.p3.sp">
+    <tags-item tags="vblex.tv.fut.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.tv.imp.p2.pl">
+    <tags-item tags="vblex.tv.imp.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.imp.p2.sg">
+    <tags-item tags="vblex.tv.imp.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.inf">
+    <tags-item tags="vblex.tv.inf"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p1.pl">
+    <tags-item tags="vblex.tv.past.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p1.sg">
+    <tags-item tags="vblex.tv.past.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p2.pl">
+    <tags-item tags="vblex.tv.past.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p2.sg">
+    <tags-item tags="vblex.tv.past.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p3.pl">
+    <tags-item tags="vblex.tv.past.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p3.sg">
+    <tags-item tags="vblex.tv.past.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.past.p3.sp">
+    <tags-item tags="vblex.tv.past.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.acc.def">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.acc.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.dat.def">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.dat.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.gen.def">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.gen.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.loc.def">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.loc.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.nom.def">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.nom.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.pl.voc.def">
+    <tags-item tags="vblex.tv.pp.actv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.acc.def">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.acc.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.dat.def">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.dat.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.gen.def">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.gen.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.loc.def">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.loc.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.nom.def">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.nom.ind">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.f.sg.voc.def">
+    <tags-item tags="vblex.tv.pp.actv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.acc.def">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.acc.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.dat.def">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.dat.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.gen.def">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.gen.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.loc.def">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.loc.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.nom.def">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.nom.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.pl.voc.def">
+    <tags-item tags="vblex.tv.pp.actv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.acc.def">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.acc.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.dat.def">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.dat.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.gen.def.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.gen.def.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.gen.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.loc.def">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.loc.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.nom.def">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.nom.ind">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.actv.m.sg.voc.def">
+    <tags-item tags="vblex.tv.pp.actv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.acc.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.acc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.dat.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.dat.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.gen.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.gen.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.loc.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.loc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.nom.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.nom.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.pl.voc.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.acc.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.acc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.dat.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.dat.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.gen.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.gen.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.loc.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.loc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.nom.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.nom.ind">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.f.sg.voc.def">
+    <tags-item tags="vblex.tv.pp.pasv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.acc.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.acc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.dat.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.dat.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.gen.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.gen.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.loc.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.loc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.nom.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.nom.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.pl.voc.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.acc.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.acc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.dat.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.dat.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.gen.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.gen.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.loc.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.loc.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.nom.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.nom.ind">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pp.pasv.m.sg.voc.def">
+    <tags-item tags="vblex.tv.pp.pasv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.adv">
+    <tags-item tags="vblex.tv.pprs.actv.adv"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.acc.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.acc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.dat.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.dat.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.gen.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.gen.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.loc.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.loc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.nom.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.nom.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.pl.voc.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.acc.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.acc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.dat.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.dat.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.gen.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.gen.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.loc.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.loc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.nom.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.nom.ind">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.f.sg.voc.def">
+    <tags-item tags="vblex.tv.pprs.actv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.acc.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.acc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.dat.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.dat.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.gen.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.gen.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.loc.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.loc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.nom.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.nom.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.pl.voc.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.acc.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.acc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.dat.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.dat.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.gen.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.gen.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.loc.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.loc.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.nom.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.nom.ind">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.m.sg.voc.def">
+    <tags-item tags="vblex.tv.pprs.actv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.rel.f.pl.nom">
+    <tags-item tags="vblex.tv.pprs.actv.rel.f.pl.nom"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.rel.f.sg.nom">
+    <tags-item tags="vblex.tv.pprs.actv.rel.f.sg.nom"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.rel.m.pl.nom">
+    <tags-item tags="vblex.tv.pprs.actv.rel.m.pl.nom"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.actv.rel.m.sg.nom">
+    <tags-item tags="vblex.tv.pprs.actv.rel.m.sg.nom"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.ind">
+    <tags-item tags="vblex.tv.pprs.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.acc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.acc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.dat.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.dat.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.gen.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.gen.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.loc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.loc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.nom.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.nom.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.pl.voc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.acc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.acc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.dat.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.dat.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.gen.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.gen.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.loc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.loc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.nom.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.nom.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.f.sg.voc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.f.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.acc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.acc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.dat.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.dat.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.gen.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.gen.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.loc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.loc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.nom.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.nom.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.pl.voc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.pl.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.acc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.acc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.acc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.acc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.dat.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.dat.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.dat.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.dat.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.gen.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.gen.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.gen.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.gen.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.loc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.loc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.loc.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.loc.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.nom.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.nom.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.nom.ind">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.nom.ind"/>
+  </def-label>
+  <def-label name="vblex.tv.pprs.pasv.m.sg.voc.def">
+    <tags-item tags="vblex.tv.pprs.pasv.m.sg.voc.def"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p1.pl">
+    <tags-item tags="vblex.tv.pres.p1.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p1.sg">
+    <tags-item tags="vblex.tv.pres.p1.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p2.pl">
+    <tags-item tags="vblex.tv.pres.p2.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p2.sg">
+    <tags-item tags="vblex.tv.pres.p2.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p3.pl">
+    <tags-item tags="vblex.tv.pres.p3.pl"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p3.sg">
+    <tags-item tags="vblex.tv.pres.p3.sg"/>
+  </def-label>
+  <def-label name="vblex.tv.pres.p3.sp">
+    <tags-item tags="vblex.tv.pres.p3.sp"/>
+  </def-label>
+  <def-label name="vblex.tv.prs">
+    <tags-item tags="vblex.tv.prs"/>
   </def-label>
   <def-label name="vbmod.fut.p1.pl" closed="true">
     <tags-item tags="vbmod.fut.p1.pl"/>
@@ -1249,20 +3631,26 @@
   <def-label name="vbmod.past.p3.sp" closed="true">
     <tags-item tags="vbmod.past.p3.sp"/>
   </def-label>
-  <def-label name="vbmod.pri.p1.pl" closed="true">
-    <tags-item tags="vbmod.pri.p1.pl"/>
+  <def-label name="vbmod.pres.p1.pl" closed="true">
+    <tags-item tags="vbmod.pres.p1.pl"/>
   </def-label>
-  <def-label name="vbmod.pri.p1.sg" closed="true">
-    <tags-item tags="vbmod.pri.p1.sg"/>
+  <def-label name="vbmod.pres.p1.sg" closed="true">
+    <tags-item tags="vbmod.pres.p1.sg"/>
   </def-label>
-  <def-label name="vbmod.pri.p2.pl" closed="true">
-    <tags-item tags="vbmod.pri.p2.pl"/>
+  <def-label name="vbmod.pres.p2.pl" closed="true">
+    <tags-item tags="vbmod.pres.p2.pl"/>
   </def-label>
-  <def-label name="vbmod.pri.p2.sg" closed="true">
-    <tags-item tags="vbmod.pri.p2.sg"/>
+  <def-label name="vbmod.pres.p2.sg" closed="true">
+    <tags-item tags="vbmod.pres.p2.sg"/>
   </def-label>
-  <def-label name="vbmod.pri.p3.sp" closed="true">
-    <tags-item tags="vbmod.pri.p3.sp"/>
+  <def-label name="vbmod.pres.p3.sp" closed="true">
+    <tags-item tags="vbmod.pres.p3.sp"/>
+  </def-label>
+  <def-label name="vbmod.prs" closed="true">
+    <tags-item tags="vbmod.prs"/>
+  </def-label>
+  <def-label name="vbser.deb" closed="true">
+    <tags-item tags="vbser.deb"/>
   </def-label>
   <def-label name="vbser.fut.p1.pl" closed="true">
     <tags-item tags="vbser.fut.p1.pl"/>
@@ -1276,8 +3664,17 @@
   <def-label name="vbser.fut.p2.sg" closed="true">
     <tags-item tags="vbser.fut.p2.sg"/>
   </def-label>
-  <def-label name="vbser.fut.p3.sp" closed="true">
-    <tags-item tags="vbser.fut.p3.sp"/>
+  <def-label name="vbser.fut.p3.pl" closed="true">
+    <tags-item tags="vbser.fut.p3.pl"/>
+  </def-label>
+  <def-label name="vbser.fut.p3.sg" closed="true">
+    <tags-item tags="vbser.fut.p3.sg"/>
+  </def-label>
+  <def-label name="vbser.imp.p2.pl" closed="true">
+    <tags-item tags="vbser.imp.p2.pl"/>
+  </def-label>
+  <def-label name="vbser.imp.p2.sg" closed="true">
+    <tags-item tags="vbser.imp.p2.sg"/>
   </def-label>
   <def-label name="vbser.inf" closed="true">
     <tags-item tags="vbser.inf"/>
@@ -1297,564 +3694,30 @@
   <def-label name="vbser.past.p3.sp" closed="true">
     <tags-item tags="vbser.past.p3.sp"/>
   </def-label>
-  <def-label name="vbser.pri.p1.pl" closed="true">
-    <tags-item tags="vbser.pri.p1.pl"/>
+  <def-label name="vbser.pres.p1.pl" closed="true">
+    <tags-item tags="vbser.pres.p1.pl"/>
   </def-label>
-  <def-label name="vbser.pri.p1.sg" closed="true">
-    <tags-item tags="vbser.pri.p1.sg"/>
+  <def-label name="vbser.pres.p1.sg" closed="true">
+    <tags-item tags="vbser.pres.p1.sg"/>
   </def-label>
-  <def-label name="vbser.pri.p2.pl" closed="true">
-    <tags-item tags="vbser.pri.p2.pl"/>
+  <def-label name="vbser.pres.p2.pl" closed="true">
+    <tags-item tags="vbser.pres.p2.pl"/>
   </def-label>
-  <def-label name="vbser.pri.p2.sg" closed="true">
-    <tags-item tags="vbser.pri.p2.sg"/>
+  <def-label name="vbser.pres.p2.sg" closed="true">
+    <tags-item tags="vbser.pres.p2.sg"/>
   </def-label>
-  <def-label name="vbser.pri.p3.sp" closed="true">
-    <tags-item tags="vbser.pri.p3.sp"/>
+  <def-label name="vbser.pres.p3.pl" closed="true">
+    <tags-item tags="vbser.pres.p3.pl"/>
+  </def-label>
+  <def-label name="vbser.pres.p3.sg" closed="true">
+    <tags-item tags="vbser.pres.p3.sg"/>
+  </def-label>
+  <def-label name="vbser.prs" closed="true">
+    <tags-item tags="vbser.prs"/>
   </def-label>
   <def-label name="num" closed="true">
     <tags-item tags="num"/>
   </def-label>
-  <def-mult name="adv+adj.sint.comp.def.f.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.pl.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.pl.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.f.sg.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.f.sg.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.pl.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.pl.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.def.m.sg.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.def.m.sg.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.f.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.f.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.comp.m.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.comp.m.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.pl.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.pl.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.f.sg.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.f.sg.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.pl.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.pl.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.def.m.sg.voc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.def.m.sg.voc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.f.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.f.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.pl.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.pl.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.pl.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.pl.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.pl.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.pl.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.pl.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.pl.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.pl.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.pl.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.sg.acc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.sg.acc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.sg.dat" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.sg.dat"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.sg.gen" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.sg.gen"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.sg.loc" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.sg.loc"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adj.sint.m.sg.nom" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adj.sint.m.sg.nom"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adv.sint.comp" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adv.sint.comp"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+adv.sint.pos" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="adv.sint.pos"/>
-    </sequence>
-  </def-mult>
   <def-mult name="adv+vblex.fut.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
@@ -1885,28 +3748,1252 @@
       <tags-item tags="vblex.fut.p3.sp"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.imp.p1.pl" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="vblex.imp.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+vblex.imp.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="vblex.imp.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+vblex.imp.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="vblex.imp.p2.sg"/>
-    </sequence>
-  </def-mult>
   <def-mult name="adv+vblex.inf" closed="true">
     <sequence>
       <tags-item tags="adv"/>
       <tags-item tags="vblex.inf"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.fut.p3.sp" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.fut.p3.sp"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.imp.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.imp.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.imp.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.imp.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.inf" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.inf"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.past.p3.sp" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.past.p3.sp"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.gen.def.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.gen.def.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.actv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.actv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pp.pasv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pp.pasv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.adv" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.adv"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.rel.f.pl.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.rel.f.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.rel.f.sg.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.rel.f.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.rel.m.pl.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.rel.m.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.actv.rel.m.sg.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.actv.rel.m.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pprs.pasv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pprs.pasv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.pres.p3.sp" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.pres.p3.sp"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.iv.prs" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.iv.prs"/>
     </sequence>
   </def-mult>
   <def-mult name="adv+vblex.past.p1.pl" closed="true">
@@ -1939,562 +5026,1414 @@
       <tags-item tags="vblex.past.p3.sp"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.pl.acc" closed="true">
+  <def-mult name="adv+vblex.pres.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.pl.acc"/>
+      <tags-item tags="vblex.pres.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.pl.dat" closed="true">
+  <def-mult name="adv+vblex.pres.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.pl.dat"/>
+      <tags-item tags="vblex.pres.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.pl.gen" closed="true">
+  <def-mult name="adv+vblex.pres.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.pl.gen"/>
+      <tags-item tags="vblex.pres.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.pl.loc" closed="true">
+  <def-mult name="adv+vblex.pres.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.pl.loc"/>
+      <tags-item tags="vblex.pres.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.pl.nom" closed="true">
+  <def-mult name="adv+vblex.pres.p3.sp" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.pl.nom"/>
+      <tags-item tags="vblex.pres.p3.sp"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.pl.voc" closed="true">
+  <def-mult name="adv+vblex.ref.fut.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.pl.voc"/>
+      <tags-item tags="vblex.ref.fut.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.sg.acc" closed="true">
+  <def-mult name="adv+vblex.ref.fut.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.sg.acc"/>
+      <tags-item tags="vblex.ref.fut.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.sg.dat" closed="true">
+  <def-mult name="adv+vblex.ref.fut.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.sg.dat"/>
+      <tags-item tags="vblex.ref.fut.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.sg.gen" closed="true">
+  <def-mult name="adv+vblex.ref.fut.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.sg.gen"/>
+      <tags-item tags="vblex.ref.fut.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.sg.loc" closed="true">
+  <def-mult name="adv+vblex.ref.fut.p3.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.sg.loc"/>
+      <tags-item tags="vblex.ref.fut.p3.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.sg.nom" closed="true">
+  <def-mult name="adv+vblex.ref.fut.p3.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.sg.nom"/>
+      <tags-item tags="vblex.ref.fut.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.f.sg.voc" closed="true">
+  <def-mult name="adv+vblex.ref.imp.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.f.sg.voc"/>
+      <tags-item tags="vblex.ref.imp.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.pl.acc" closed="true">
+  <def-mult name="adv+vblex.ref.imp.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.pl.acc"/>
+      <tags-item tags="vblex.ref.imp.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.pl.dat" closed="true">
+  <def-mult name="adv+vblex.ref.inf" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.pl.dat"/>
+      <tags-item tags="vblex.ref.inf"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.pl.gen" closed="true">
+  <def-mult name="adv+vblex.ref.past.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.pl.gen"/>
+      <tags-item tags="vblex.ref.past.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.pl.loc" closed="true">
+  <def-mult name="adv+vblex.ref.past.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.pl.loc"/>
+      <tags-item tags="vblex.ref.past.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.pl.nom" closed="true">
+  <def-mult name="adv+vblex.ref.past.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.pl.nom"/>
+      <tags-item tags="vblex.ref.past.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.pl.voc" closed="true">
+  <def-mult name="adv+vblex.ref.past.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.pl.voc"/>
+      <tags-item tags="vblex.ref.past.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.sg.acc" closed="true">
+  <def-mult name="adv+vblex.ref.past.p3.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.sg.acc"/>
+      <tags-item tags="vblex.ref.past.p3.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.sg.dat" closed="true">
+  <def-mult name="adv+vblex.ref.past.p3.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.sg.dat"/>
+      <tags-item tags="vblex.ref.past.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.sg.gen" closed="true">
+  <def-mult name="adv+vblex.ref.pres.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.sg.gen"/>
+      <tags-item tags="vblex.ref.pres.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.sg.loc" closed="true">
+  <def-mult name="adv+vblex.ref.pres.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.sg.loc"/>
+      <tags-item tags="vblex.ref.pres.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.sg.nom" closed="true">
+  <def-mult name="adv+vblex.ref.pres.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.sg.nom"/>
+      <tags-item tags="vblex.ref.pres.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.def.m.sg.voc" closed="true">
+  <def-mult name="adv+vblex.ref.pres.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.def.m.sg.voc"/>
+      <tags-item tags="vblex.ref.pres.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.pl.acc" closed="true">
+  <def-mult name="adv+vblex.ref.pres.p3.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.pl.acc"/>
+      <tags-item tags="vblex.ref.pres.p3.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.pl.dat" closed="true">
+  <def-mult name="adv+vblex.ref.pres.p3.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.pl.dat"/>
+      <tags-item tags="vblex.ref.pres.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.pl.gen" closed="true">
+  <def-mult name="adv+vblex.TD.imp.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.pl.gen"/>
+      <tags-item tags="vblex.TD.imp.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.pl.loc" closed="true">
+  <def-mult name="adv+vblex.TD.imp.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.pl.loc"/>
+      <tags-item tags="vblex.TD.imp.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.pl.nom" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.pl.nom"/>
+      <tags-item tags="vblex.tv.fut.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.sg.acc" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.sg.acc"/>
+      <tags-item tags="vblex.tv.fut.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.sg.dat" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.sg.dat"/>
+      <tags-item tags="vblex.tv.fut.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.sg.gen" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.sg.gen"/>
+      <tags-item tags="vblex.tv.fut.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.sg.loc" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p3.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.sg.loc"/>
+      <tags-item tags="vblex.tv.fut.p3.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.f.sg.nom" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p3.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.f.sg.nom"/>
+      <tags-item tags="vblex.tv.fut.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.pl.acc" closed="true">
+  <def-mult name="adv+vblex.tv.fut.p3.sp" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.pl.acc"/>
+      <tags-item tags="vblex.tv.fut.p3.sp"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.pl.dat" closed="true">
+  <def-mult name="adv+vblex.tv.imp.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.pl.dat"/>
+      <tags-item tags="vblex.tv.imp.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.pl.gen" closed="true">
+  <def-mult name="adv+vblex.tv.imp.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.pl.gen"/>
+      <tags-item tags="vblex.tv.imp.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.pl.loc" closed="true">
+  <def-mult name="adv+vblex.tv.inf" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.pl.loc"/>
+      <tags-item tags="vblex.tv.inf"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.pl.nom" closed="true">
+  <def-mult name="adv+vblex.tv.past.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.pl.nom"/>
+      <tags-item tags="vblex.tv.past.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.sg.acc" closed="true">
+  <def-mult name="adv+vblex.tv.past.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.sg.acc"/>
+      <tags-item tags="vblex.tv.past.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.sg.dat" closed="true">
+  <def-mult name="adv+vblex.tv.past.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.sg.dat"/>
+      <tags-item tags="vblex.tv.past.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.sg.gen" closed="true">
+  <def-mult name="adv+vblex.tv.past.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.sg.gen"/>
+      <tags-item tags="vblex.tv.past.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.sg.loc" closed="true">
+  <def-mult name="adv+vblex.tv.past.p3.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.sg.loc"/>
+      <tags-item tags="vblex.tv.past.p3.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.act.m.sg.nom" closed="true">
+  <def-mult name="adv+vblex.tv.past.p3.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.act.m.sg.nom"/>
+      <tags-item tags="vblex.tv.past.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.pl.acc" closed="true">
+  <def-mult name="adv+vblex.tv.past.p3.sp" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.pl.acc"/>
+      <tags-item tags="vblex.tv.past.p3.sp"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.pl.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.acc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.pl.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.acc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.pl.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.acc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.pl.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.acc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.pl.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.dat.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.pl.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.dat.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.pl.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.dat.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.pl.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.dat.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.pl.voc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.gen.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.pl.voc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.gen.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.sg.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.gen.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.sg.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.gen.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.sg.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.loc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.sg.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.loc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.sg.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.loc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.sg.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.loc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.sg.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.nom.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.sg.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.nom.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.sg.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.nom.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.sg.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.nom.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.f.sg.voc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.pl.voc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.f.sg.voc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.pl.voc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.pl.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.acc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.pl.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.acc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.pl.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.acc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.pl.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.acc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.pl.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.dat.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.pl.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.dat.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.pl.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.dat.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.pl.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.dat.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.pl.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.gen.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.pl.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.gen.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.pl.voc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.gen.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.pl.voc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.gen.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.sg.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.loc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.sg.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.loc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.sg.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.loc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.sg.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.loc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.sg.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.nom.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.sg.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.nom.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.sg.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.nom.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.sg.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.nom.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.sg.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.f.sg.voc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.sg.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.f.sg.voc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.def.m.sg.voc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.acc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.def.m.sg.voc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.acc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.pl.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.acc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.pl.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.acc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.pl.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.dat.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.pl.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.dat.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.pl.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.dat.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.pl.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.dat.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.pl.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.gen.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.pl.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.gen.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.pl.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.gen.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.pl.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.gen.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.sg.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.loc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.sg.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.loc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.sg.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.loc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.sg.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.loc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.sg.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.nom.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.sg.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.nom.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.sg.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.nom.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.sg.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.nom.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.f.sg.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.pl.voc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.f.sg.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.m.pl.voc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.pl.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.acc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.pl.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.acc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.pl.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.acc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.pl.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.acc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.pl.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.dat.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.pl.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.dat.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.pl.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.dat.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.pl.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.dat.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.pl.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.gen.def.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.pl.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.gen.def.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.sg.acc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.gen.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.sg.acc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.gen.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.sg.dat" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.loc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.sg.dat"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.loc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.sg.gen" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.loc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.sg.gen"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.loc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.sg.loc" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.nom.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.sg.loc"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.nom.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pp.psv.m.sg.nom" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.nom.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pp.psv.m.sg.nom"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.nom.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pri.p1.pl" closed="true">
+  <def-mult name="adv+vblex.tv.pp.actv.m.sg.voc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pri.p1.pl"/>
+      <tags-item tags="vblex.tv.pp.actv.m.sg.voc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pri.p1.sg" closed="true">
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.acc.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pri.p1.sg"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.acc.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pri.p2.pl" closed="true">
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.acc.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pri.p2.pl"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.acc.ind"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pri.p2.sg" closed="true">
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.dat.def" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pri.p2.sg"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.dat.def"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vblex.pri.p3.sp" closed="true">
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.dat.ind" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vblex.pri.p3.sp"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pp.pasv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pp.pasv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.adv" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.adv"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.rel.f.pl.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.rel.f.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.rel.f.sg.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.rel.f.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.rel.m.pl.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.rel.m.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.actv.rel.m.sg.nom" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.actv.rel.m.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.f.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.f.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.pl.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.pl.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.acc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.acc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.acc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.acc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.dat.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.dat.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.dat.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.dat.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.gen.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.gen.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.gen.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.gen.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.loc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.loc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.loc.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.loc.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.nom.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.nom.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.nom.ind" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.nom.ind"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pprs.pasv.m.sg.voc.def" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pprs.pasv.m.sg.voc.def"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.pres.p3.sp" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.pres.p3.sp"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vblex.tv.prs" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vblex.tv.prs"/>
     </sequence>
   </def-mult>
   <def-mult name="adv+vbmod.fut.p1.pl" closed="true">
@@ -2563,35 +6502,184 @@
       <tags-item tags="vbmod.past.p3.sp"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vbmod.pri.p1.pl" closed="true">
+  <def-mult name="adv+vbmod.pres.p1.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vbmod.pri.p1.pl"/>
+      <tags-item tags="vbmod.pres.p1.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vbmod.pri.p1.sg" closed="true">
+  <def-mult name="adv+vbmod.pres.p1.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vbmod.pri.p1.sg"/>
+      <tags-item tags="vbmod.pres.p1.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vbmod.pri.p2.pl" closed="true">
+  <def-mult name="adv+vbmod.pres.p2.pl" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vbmod.pri.p2.pl"/>
+      <tags-item tags="vbmod.pres.p2.pl"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vbmod.pri.p2.sg" closed="true">
+  <def-mult name="adv+vbmod.pres.p2.sg" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vbmod.pri.p2.sg"/>
+      <tags-item tags="vbmod.pres.p2.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vbmod.pri.p3.sp" closed="true">
+  <def-mult name="adv+vbmod.pres.p3.sp" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vbmod.pri.p3.sp"/>
+      <tags-item tags="vbmod.pres.p3.sp"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbmod.prs" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbmod.prs"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.deb" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.deb"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.fut.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.fut.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.fut.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.fut.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.fut.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.fut.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.fut.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.fut.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.fut.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.fut.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.fut.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.fut.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.imp.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.imp.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.imp.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.imp.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.inf" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.inf"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.past.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.past.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.past.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.past.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.past.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.past.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.past.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.past.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.past.p3.sp" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.past.p3.sp"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.pres.p1.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.pres.p1.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.pres.p1.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.pres.p1.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.pres.p2.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.pres.p2.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.pres.p2.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.pres.p2.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.pres.p3.pl" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.pres.p3.pl"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.pres.p3.sg" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.pres.p3.sg"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="adv+vbser.prs" closed="true">
+    <sequence>
+      <tags-item tags="adv"/>
+      <tags-item tags="vbser.prs"/>
     </sequence>
   </def-mult>
 </tagset>
+  <preferences>
+   <prefer tags="np.ant.f.sg.nom"/>
+   <prefer tags="np.ant.m.sg.nom"/>
+   <prefer tags="adv"/>
+  </preferences>
+  <discard-on-ambiguity>
+    <discard tags="np.ant.f.pl.nom"/>
+    <discard tags="np.ant.m.pl.nom"/>
+    <discard tags="np.ant.f.pl.gen"/>
+    <discard tags="np.ant.m.pl.gen"/>
+  </discard-on-ambiguity>
 </tagger>

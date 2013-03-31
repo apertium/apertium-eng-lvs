@@ -37,6 +37,7 @@ dev/verbs.chopped.dix -text
 dev/verbs.dix -text
 dev/wikilist -text
 /eng-lvs.prob -text svneol=unset#unset
+/lvs-eng-unsupervised.make -text
 /lvs-eng.prob -text svneol=unset#unset
 /modes.xml -text
 /principal.xsl -text

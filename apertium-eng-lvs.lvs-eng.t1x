@@ -5,6 +5,7 @@
   <def-cat n="prn-def">
      <cat-item tags="prn.def.*"/>
      <cat-item tags="prn.ind.*"/>
+     <cat-item tags="prn.neg.*"/>
      <cat-item tags="prn.itg.*"/>
   </def-cat>
   <def-cat n="prn-pers">
@@ -19,6 +20,9 @@
   <def-cat n="nom">
      <cat-item tags="n.*"/>
      <cat-item tags="np.*"/>
+  </def-cat>
+  <def-cat n="v-imper">
+     <cat-item tags="vblex.*.imp.*"/>
   </def-cat>
   <def-cat n="v-deb">
      <cat-item tags="vblex.*.deb"/>
@@ -84,8 +88,12 @@
   </def-attr>
 
   <def-attr n="a_prn">
-     <attr-item tags="prn"/>
      <attr-item tags="prn.itg"/>
+     <attr-item tags="prn.neg"/>
+     <attr-item tags="prn.pers"/>
+     <attr-item tags="prn.def"/>
+     <attr-item tags="prn.ind"/>
+     <attr-item tags="prn.tn"/>
   </def-attr>
 
   <def-attr n="tns">
@@ -501,6 +509,31 @@
        </out>
      </action>
   </rule>
+
+  <rule>
+     <pattern>
+       <pattern-item n="v-imper"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="imp" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="sl" part="temps"/></tag>
+             <tag><clip pos="1" side="tl" part="pers"/></tag>
+             <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_vrb"/>
+             <lit-tag v="inf"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
 
   <rule>
      <pattern>
