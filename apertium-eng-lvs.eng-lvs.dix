@@ -10,6 +10,7 @@
     <sdef n="FD"/>
     <sdef n="vbmod"/>
     <sdef n="nt"/>
+    <sdef n="ref"/>
     <sdef n="iv"/>
     <sdef n="tv"/>
     <sdef n="vaux"/>
@@ -2712,6 +2713,8 @@
     <e><p><l>see<s n="vblex"/></l><r>redzēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>get<s n="vblex"/></l><r>dabūt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>obtain<s n="vblex"/></l><r>dabūt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>eat<s n="vblex"/></l><r>ieēst<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>do<s n="vblex"/></l><r>darīt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>think<s n="vblex"/></l><r>domāt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>derive<s n="vblex"/></l><r>dabūt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/><s n="tv"/></r></p></e>
@@ -2720,9 +2723,21 @@
     <e><p><l>hear<s n="vblex"/></l><r>dzirdēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>want<s n="vblex"/></l><r>gribēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>walk<s n="vblex"/></l><r>iet<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>sleep<s n="vblex"/></l><r>gulēt<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>count<s n="vblex"/></l><r>skaitīt<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>know<s n="vblex"/></l><r>zināt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>please<s n="vblex"/></l><r>patikt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>ask<s n="vblex"/></l><r>prasīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>request<s n="vblex"/></l><r>prasīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>sacīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>teikt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>tell<s n="vblex"/></l><r>teikt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>tell<s n="vblex"/></l><r>pasacīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>answer<s n="vblex"/></l><r>atbildēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>talk<s n="vblex"/></l><r>runāt<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>aiziet<s n="vblex"/><s n="iv"/></r></p></e>
+
+    <e><p><l>play<s n="vblex"/></l><r>spēlēties<s n="vblex"/><s n="ref"/></r></p></e>
 
     <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
     <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
