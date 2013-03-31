@@ -5,6 +5,7 @@
   <def-cat n="prn-def">
      <cat-item tags="prn.def.*"/>
      <cat-item tags="prn.ind.*"/>
+     <cat-item tags="prn.itg.*"/>
   </def-cat>
   <def-cat n="prn-pers">
      <cat-item tags="prn.pers.*"/>
@@ -18,6 +19,10 @@
   <def-cat n="nom">
      <cat-item tags="n.*"/>
      <cat-item tags="np.*"/>
+  </def-cat>
+  <def-cat n="v-deb">
+     <cat-item tags="vblex.*.deb"/>
+     <cat-item tags="vbser.deb"/>
   </def-cat>
   <def-cat n="vbser">
      <cat-item tags="vbser.*"/>
@@ -421,6 +426,29 @@
 
 
 
+  <rule comment="REGLA: det">
+     <pattern>
+       <pattern-item n="det"/>
+     </pattern>
+     <action>
+        <let><clip pos="1" side="tl" part="a_gen"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+       <out>
+         <chunk name="d" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="MOD"/></tag>
+             <tag><clip pos="1" side="sl" part="a_gen"/></tag>
+             <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
   <rule>
      <pattern>
        <pattern-item n="adj"/>
@@ -446,6 +474,34 @@
      </action>
   </rule>
 
+  <rule>
+     <pattern>
+       <pattern-item n="v-deb"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="must-v" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="sl" part="temps"/></tag>
+             <tag><clip pos="1" side="tl" part="pers"/></tag>
+             <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="must"/>
+             <lit-tag v="vaux.inf"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_vrb"/>
+             <lit-tag v="inf"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
 
   <rule>
      <pattern>
@@ -569,6 +625,7 @@
         </out>
      </action>
   </rule>
+
 
 
 </section-rules>

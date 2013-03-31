@@ -2678,6 +2678,8 @@
     <e><p><l>little<s n="adj"/></l><r>mazs<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
+
+    <e r="RL"><p><l></l><r>vai<s n="adv"/><s n="itg"/></r></p></e>
  
     <e r="RL"><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sp"/><s n="loc"/></r></p></e>
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>kas<s n="adv"/><s n="itg"/></r></p></e>
@@ -2702,6 +2704,7 @@
     <e><p><l>then<s n="adv"/></l><r>tad<s n="adv"/></r></p></e>
     <e><p><l>inside<s n="adv"/></l><r>iekšā<s n="adv"/></r></p></e>
     <e><p><l>around<s n="adv"/></l><r>apkārt<s n="adv"/></r></p></e>
+    <e><p><l>probably<s n="adv"/></l><r>droši<b/>vien<s n="adv"/></r></p></e>
     <e><p><l>always<s n="adv"/></l><r>vienmēr<s n="adv"/></r></p></e>
     <e><p><l>near<s n="adv"/></l><r>tuvu<s n="adv"/><s n="sint"/></r></p></e>
 
@@ -2738,6 +2741,10 @@
     <e><p><l>leave<s n="vblex"/></l><r>aiziet<s n="vblex"/><s n="iv"/></r></p></e>
 
     <e><p><l>play<s n="vblex"/></l><r>spēlēties<s n="vblex"/><s n="ref"/></r></p></e>
+    <e><p><l>look<s n="vblex"/></l><r>skatīties<s n="vblex"/><s n="ref"/></r></p></e>
+    <e><p><l>see<s n="vblex"/></l><r>skatīties<s n="vblex"/><s n="ref"/></r></p></e>
+    <e><p><l>listen<s n="vblex"/></l><r>klausīties<s n="vblex"/><s n="ref"/></r></p></e>
+    <e><p><l>hear<s n="vblex"/></l><r>klausīties<s n="vblex"/><s n="ref"/></r></p></e>
 
     <e><p><l>get<s n="vblex"/></l><r>tikt<s n="vblex"/></r></p></e>
     <e><p><l>overgrow<s n="vblex"/></l><r>aizaugt<s n="vblex"/></r></p></e>
