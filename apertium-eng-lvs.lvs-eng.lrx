@@ -1,0 +1,8 @@
+<rules>
+  <rule>
+    <match lemma="laiks" tags="n.*"><select lemma="weather" tags="n.*"/></match>
+    <match lemma="būt" tags="vbser.*"/>
+    <match lemma="jauks" tags="adj.*"/>
+  </rule>
+
+</rules>
