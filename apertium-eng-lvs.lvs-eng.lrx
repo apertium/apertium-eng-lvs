@@ -1,10 +1,16 @@
 <rules>
   <rule>
+    <match lemma="par" tags="pr"><select lemma="about" tags="pr"/></match>
+  </rule>
+  <rule>
     <match lemma="laiks" tags="n.*"><select lemma="time" tags="n.*"/></match>
   </rule>
   <rule>
     <match lemma="laiks" tags="n.*"><select lemma="weather" tags="n.*"/></match>
-    <match lemma="prognoze" tags="n.*"/>
+    <or>
+      <match lemma="prognoze" tags="n.*"/>
+      <match lemma="apstāklis" tags="n.*"><select lemma="condition" tags="n.*"/></match>
+    </or>
   </rule>
   <rule>
     <match lemma="laiks" tags="n.*"><select lemma="weather" tags="n.*"/></match>

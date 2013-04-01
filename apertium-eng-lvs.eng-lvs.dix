@@ -9,6 +9,9 @@
     <sdef n="def"/>
     <sdef n="FD"/>
     <sdef n="neg"/>
+    <sdef n="rpar"/>
+    <sdef n="lpar"/>
+    <sdef n="guio"/>
     <sdef n="vbmod"/>
     <sdef n="nt"/>
     <sdef n="ref"/>
@@ -62,6 +65,7 @@
     <e><p><l>but<s n="cnjcoo"/></l><r>bet<s n="cnjcoo"/></r></p></e>
     <e><p><l>when<s n="cnjadv"/></l><r>kad<s n="adv"/></r></p></e>
     <e><p><l>although<s n="cnjadv"/></l><r>lai<b/>gan<s n="cnjadv"/></r></p></e>
+    <e><p><l>because<s n="cnjadv"/></l><r>tāpēc<s n="cnjadv"/></r></p></e>
     <e><p><l>that<s n="cnjsub"/></l><r>ka<s n="cnjsub"/></r></p></e>
 
 
@@ -90,6 +94,9 @@
     <e><p><l>in<s n="pr"/></l><r>iekš<s n="pr"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>priekš<s n="pr"/></r></p></e>
     <e><p><l>since<s n="pr"/></l><r>kopš<s n="pr"/></r></p></e>
+    <e><p><l>about<s n="pr"/></l><r>par<s n="pr"/></r></p></e>
+    <e><p><l>on<s n="pr"/></l><r>par<s n="pr"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>par<s n="pr"/></r></p></e>
     <e><p><l>out<b/>of<s n="pr"/></l><r>iz<s n="pr"/></r></p></e>
 
     <!-- SECTION: Determiners -->
@@ -111,6 +118,7 @@
     <e r="LR"><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>tu<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="GD"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>viņš<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>viņš<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>mēs<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>viņi<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>viņi<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
@@ -329,6 +337,8 @@
     <!-- SECTION: Nouns -->
     <e><p><l>bull<s n="n"/></l><r>bullis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>front<s n="n"/></l><r>priekša<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>forecast<s n="n"/></l><r>prognoze<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prognosis<s n="n"/></l><r>prognoze<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>face<s n="n"/></l><r>seja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>thief<s n="n"/></l><r>zaglis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sparrow<s n="n"/></l><r>zvirbulis<s n="n"/><s n="m"/></r></p></e>
@@ -601,6 +611,9 @@
     <e><p><l>lamp<s n="n"/></l><r>lampa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sheet<s n="n"/></l><r>lapa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>land<s n="n"/></l><r>zeme<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>earth<s n="n"/></l><r>zeme<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>soil<s n="n"/></l><r>zeme<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ground<s n="n"/></l><r>zeme<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>beer<s n="n"/></l><r>alus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>husband<s n="n"/></l><r>vīrs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>night<s n="n"/></l><r>nakts<s n="n"/><s n="f"/></r></p></e>
@@ -930,6 +943,7 @@
     <e><p><l>April<s n="n"/></l><r>aprīlis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>district<s n="n"/></l><r>apriņķis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>circumstance<s n="n"/></l><r>apstāklis<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>condition<s n="n"/></l><r>apstāklis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>treatment<s n="n"/></l><r>apstrāde<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>association<s n="n"/></l><r>apvienība<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>consciousness<s n="n"/></l><r>apziņa<s n="n"/><s n="f"/></r></p></e>
@@ -1099,7 +1113,6 @@
     <e><p><l>physicist<s n="n"/></l><r>fiziķis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>folklore<s n="n"/></l><r>folklora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>point<g><b/>of<b/>view</g><s n="n"/></l><r>viedoklis<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>land<s n="n"/></l><r>zeme<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>middle<s n="n"/></l><r>vidus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>high<b/>school<s n="n"/></l><r>vidusskola<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sauce<s n="n"/></l><r>mērce<s n="n"/><s n="f"/></r></p></e>
@@ -2283,6 +2296,7 @@
     <e><p><l>rural<s n="adj"/></l><r>lauciniecisks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>icy<s n="adj"/></l><r>ledains<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>legal<s n="adj"/></l><r>legāls<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>illegal<s n="adj"/></l><r>nelegāls<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>clumsy<s n="adj"/></l><r>lempīgs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>proud<s n="adj"/></l><r>lepns<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>legendary<s n="adj"/></l><r>leģendārs<s n="adj"/><s n="sint"/></r></p></e>
@@ -2715,6 +2729,7 @@
     <e><p><l>probably<s n="adv"/></l><r>droši<b/>vien<s n="adv"/></r></p></e>
     <e><p><l>always<s n="adv"/></l><r>vienmēr<s n="adv"/></r></p></e>
     <e><p><l>near<s n="adv"/></l><r>tuvu<s n="adv"/><s n="sint"/></r></p></e>
+    <e><p><l>exactly<s n="adv"/></l><r>īsti<s n="adv"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -2746,6 +2761,7 @@
     <e><p><l>tell<s n="vblex"/></l><r>pasacīt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>drink<s n="vblex"/></l><r>iedzert<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>answer<s n="vblex"/></l><r>atbildēt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>control<s n="vblex"/></l><r>kontrolēt<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>talk<s n="vblex"/></l><r>runāt<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>run<s n="vblex"/></l><r>skriet<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>leave<s n="vblex"/></l><r>aiziet<s n="vblex"/><s n="iv"/></r></p></e>
@@ -2753,6 +2769,10 @@
     <e><p><l>arrive<s n="vblex"/></l><r>nākt<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>sit<s n="vblex"/></l><r>sēdēt<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>sit<s n="vblex"/></l><r>sēst<s n="vblex"/><s n="iv"/></r></p></e>
+    <e><p><l>await<s n="vblex"/></l><r>sagaidīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>welcome<s n="vblex"/></l><r>sagaidīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>expect<s n="vblex"/></l><r>sagaidīt<s n="vblex"/><s n="tv"/></r></p></e>
+    <e><p><l>await<s n="vblex"/></l><r>sagaidīt<s n="vblex"/><s n="tv"/></r></p></e>
 
     <e><p><l>try<s n="vblex"/></l><r>censties<s n="vblex"/><s n="ref"/></r></p></e>
     <e><p><l>play<s n="vblex"/></l><r>spēlēties<s n="vblex"/><s n="ref"/></r></p></e>
@@ -2793,7 +2813,10 @@
 <e>       <re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
 
 <e>       <re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e>       <re>[\]\)]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+<e>       <re>[\[\(]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
 
+    <e><i>-<s n="guio"/></i></e>
     <e><i>,<s n="cm"/></i></e>
     <e><i>"<s n="quot"/></i></e>
   </section>
