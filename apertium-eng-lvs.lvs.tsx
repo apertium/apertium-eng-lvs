@@ -5433,28 +5433,10 @@
       <tags-item tags="vbser.inf"/>
     </sequence>
   </def-mult>
-  <def-mult name="adv+vbser.past.p1.pl" closed="true">
+  <def-mult name="adv+vbser.past" closed="true">
     <sequence>
       <tags-item tags="adv"/>
-      <tags-item tags="vbser.past.p1.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+vbser.past.p1.sg" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="vbser.past.p1.sg"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+vbser.past.p2.pl" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="vbser.past.p2.pl"/>
-    </sequence>
-  </def-mult>
-  <def-mult name="adv+vbser.past.p2.sg" closed="true">
-    <sequence>
-      <tags-item tags="adv"/>
-      <tags-item tags="vbser.past.p2.sg"/>
+      <tags-item tags="vbser.past.*"/>
     </sequence>
   </def-mult>
   <def-mult name="adv+vbser.pres" closed="true">
