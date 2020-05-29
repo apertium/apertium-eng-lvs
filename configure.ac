@@ -1,7 +1,3 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
 AC_INIT([apertium-eng-lvs], [0.0.1], [apertium-stuff@lists.sourceforge.net])
@@ -34,5 +30,6 @@ then
   AC_MSG_ERROR([You don't have lrx-proc installed.])
 fi
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])

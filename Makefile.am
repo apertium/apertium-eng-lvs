@@ -1,4 +1,3 @@
-VERSION=0.0.1
 LANG1=eng
 LANG2=lvs
 PREFIX1=$(LANG1)-$(LANG2)
@@ -13,13 +12,14 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 	$(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 	$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 	$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
-	$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
-	modes
+	$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin
+
+@ap_include@
 
 TARGETS = $(TARGETS_COMMON)
 
 .deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+	if [ ! -d .deps ]; then $(MKDIR_P) .deps; fi
 	xsltproc --stringparam alt en_GB alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 .deps/$(LANG1).dix: .deps/$(LANG1).metadix
@@ -111,32 +111,13 @@ apertium_eng_lvs_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		$(PREFIX1).prob $(PREFIX2).prob \
 		$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 		$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
-		$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
-		$(PREFIX1).mode $(PREFIX2).mode 
+		$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin
 
 apertium_eng_lvsdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_eng_lvs_modesdir=$(prefix)/share/apertium/modes/
 
-$(PREFIX1).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-$(PREFIX2).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-modes: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-install-data-local:
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	test -d $(DESTDIR)$(apertium_eng_lvs_modesdir) || mkdir $(DESTDIR)$(apertium_eng_lvs_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_eng_lvs_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_eng_lvs_modesdir)
+install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_eng_lvsdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_eng_lvsdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_eng_lvsdir)
 
-CLEANFILES = -rf $(TARGETS) modes
-
+CLEANFILES = -rf $(TARGETS)
