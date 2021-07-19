@@ -1,0 +1,22 @@
+[0DUCxD10owuT#0] ^default<default>{^,<cm>$}$
+[/0DUCxD10owuT]
+[8IgPMH5TzP3i#0] ^default<default>{^@¡<lquest>$}$
+[/8IgPMH5TzP3i]
+[QGskhtUujY2S#0] ^default<default>{^@be# likely<vblex><pres><p1><sg>$}$
+[/QGskhtUujY2S]
+[Zc4eYXwX8IK-#0] ^default<default>{^@1327,7%<num><percent>$}$
+[/Zc4eYXwX8IK-]
+[ayPA1fNdGxH5#0] ^default<default>{^@C<num><mf><sg>$}$
+[/ayPA1fNdGxH5]
+[cFCiYjRCVr_1#0] ^default<default>{^@be# unlikely<vblex><pres><p3><sg>$}$
+[/cFCiYjRCVr_1]
+[iNH5irIl3B20#0] ^default<default>{^@'<apos>$}$
+[/iNH5irIl3B20]
+[mDNhK0jOXzRb#0] ^default<default>{^@3,6%<num><percent>$}$
+[/mDNhK0jOXzRb]
+[moEF1xkUEFYi#0] ^default<default>{^būt<vbser><pres><p1><sg>$}$
+[/moEF1xkUEFYi]
+[ugug_VQH-DB1#0] ^default<default>{^@be# hungry<vblex><pres><p1><sg>$}$
+[/ugug_VQH-DB1]
+[wahHE8XSowOv#0] ^default<default>{^@be# sorry<vblex><pres><p3><sg>$}$
+[/wahHE8XSowOv]

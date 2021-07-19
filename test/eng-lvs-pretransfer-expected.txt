@@ -1,0 +1,22 @@
+[0DUCxD10owuT#0] ^,<cm>$
+[/0DUCxD10owuT]
+[8IgPMH5TzP3i#0] ^¡<lquest>$
+[/8IgPMH5TzP3i]
+[QGskhtUujY2S#0] ^be# likely<vblex><pres><p1><sg>$
+[/QGskhtUujY2S]
+[Zc4eYXwX8IK-#0] ^1327,7%<num><percent>$
+[/Zc4eYXwX8IK-]
+[ayPA1fNdGxH5#0] ^C<num><mf><sg>$
+[/ayPA1fNdGxH5]
+[cFCiYjRCVr_1#0] ^be# unlikely<vblex><pres><p3><sg>$
+[/cFCiYjRCVr_1]
+[iNH5irIl3B20#0] ^'<apos>$
+[/iNH5irIl3B20]
+[mDNhK0jOXzRb#0] ^3,6%<num><percent>$
+[/mDNhK0jOXzRb]
+[moEF1xkUEFYi#0] ^be<vbser><pres><p1><sg>$
+[/moEF1xkUEFYi]
+[ugug_VQH-DB1#0] ^be# hungry<vblex><pres><p1><sg>$
+[/ugug_VQH-DB1]
+[wahHE8XSowOv#0] ^be# sorry<vblex><pres><p3><sg>$
+[/wahHE8XSowOv]

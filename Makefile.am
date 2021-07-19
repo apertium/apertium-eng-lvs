@@ -121,3 +121,6 @@ install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_eng_lvsdir)
 
 CLEANFILES = -rf $(TARGETS)
+
+test: all
+	apertium-regtest test

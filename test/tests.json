@@ -1,0 +1,10 @@
+{
+    "eng-lvs": {
+        "input": "eng-lvs-input.txt",
+        "mode": "eng-lvs"
+    },
+    "lvs-eng": {
+        "input": "lvs-eng-input.txt",
+        "mode": "lvs-eng"
+    }
+}
